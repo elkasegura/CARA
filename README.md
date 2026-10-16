@@ -1,4 +1,4 @@
-# Unsupervised Feature Selection Framework
+# Cluster-wise Autoencoders for Redundancy-Aware Unsupervised Feature Selection
 
 A unified and reproducible research framework for evaluating multiple **Unsupervised Feature Selection (UFS)** algorithms on benchmark datasets. This repository provides implementations of several UFS methods, evaluation utilities, experimental pipelines, and visualization tools for comparative analysis.
 
