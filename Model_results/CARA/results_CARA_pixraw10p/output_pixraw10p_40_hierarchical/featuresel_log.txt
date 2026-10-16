@@ -1,0 +1,48 @@
+================================================================================
+CARA - FEATURE SELECTION SYSTEM USING AUTOENCODER
+================================================================================
+
+Esecuzione iniziata: 2026-03-13 05:27:35
+
+
+================================================================================
+CONFIGURAZIONE
+================================================================================
+Dataset: pixraw10P
+Input folder: Raw_Datasets/
+Label column: label_pixraw10p
+Scaler: standard
+
+Clustering strategy: Hierarchical
+Clustering parameters: searching
+
+Autoencoder: LinearAE
+Learning rate: 0.001
+Epochs: 100
+
+Output folder: output_experiments_29_datasets_all_distances/pixraw10p/output_pixraw10p_40_hierarchical
+================================================================================
+
+
+--------------------------------------------------
+CARICAMENTO DATI
+--------------------------------------------------
+
+
+--------------------------------------------------
+CLUSTERING...
+--------------------------------------------------
+
+
+--------------------------------------------------
+FILTERING...
+--------------------------------------------------
+
+Selected features: ['feature_3998', 'feature_5157', 'feature_9730', 'feature_5151', 'feature_5851', 'feature_2287', 'feature_795', 'feature_2409', 'feature_429', 'feature_5188', 'feature_4236', 'feature_7061', 'feature_5634', 'feature_3395', 'feature_7203', 'feature_9217', 'feature_4201', 'feature_7745', 'feature_7864', 'feature_7433', 'feature_7226', 'feature_6877', 'feature_7217', 'feature_8222', 'feature_2932', 'feature_4624', 'feature_3516', 'feature_7049', 'feature_2429', 'feature_5742', 'feature_4848', 'feature_6660', 'feature_6464', 'feature_1748', 'feature_2046', 'feature_2755', 'feature_8896', 'feature_8397', 'feature_6332', 'feature_1923']
+
+--------------------------------------------------
+VALUTAZIONE...
+--------------------------------------------------
+
+NMI: 0.8320 ± 0.0188
+ACC: 0.7460 ± 0.0282

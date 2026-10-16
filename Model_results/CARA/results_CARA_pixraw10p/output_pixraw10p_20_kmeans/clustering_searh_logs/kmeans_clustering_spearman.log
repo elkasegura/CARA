@@ -1,0 +1,6 @@
+2026-03-13 05:02:51 - INFO - Inizio log: output_experiments_29_datasets_all_distances/pixraw10p/output_pixraw10p_20_kmeans/clustering_searh_logs/kmeans_clustering_spearman.log
+2026-03-13 05:02:51 - INFO - Numero di features: 10000, Numero di pazienti: 10000
+2026-03-13 05:02:51 - INFO - Numero minimo di features per cluster: 500, Numero massimo di features per cluster: 500
+2026-03-13 05:02:51 - INFO - Numero minimo di cluster: 20, Numero massimo di cluster: 20
+2026-03-13 05:04:54 - INFO - Num clusters: 20, Silhouette Score: 0.6668, Davies-Bouldin Score: 0.6371, Avg features per cluster: 895.33, Single feature clusters %: 70.0
+2026-03-13 05:04:54 - INFO - Best result: {'num_clusters': 20, 'silhouette_score': 0.6667705439569098, 'davies_bouldin_score': 0.6370661203522886, 'avg_features_per_cluster': 895.3333333333334, 'single_feature_clusters_percentage': 70.0}

@@ -1,0 +1,48 @@
+================================================================================
+CARA - FEATURE SELECTION SYSTEM USING AUTOENCODER
+================================================================================
+
+Esecuzione iniziata: 2026-03-10 21:39:43
+
+
+================================================================================
+CONFIGURAZIONE
+================================================================================
+Dataset: BASEHOCK
+Input folder: Raw_Datasets/
+Label column: label_basehock
+Scaler: standard
+
+Clustering strategy: KMeans
+Clustering parameters: searching
+
+Autoencoder: LinearAE
+Learning rate: 0.001
+Epochs: 100
+
+Output folder: output_experiments_29_datasets_all_distances/basehock/output_basehock_20_kmeans
+================================================================================
+
+
+--------------------------------------------------
+CARICAMENTO DATI
+--------------------------------------------------
+
+
+--------------------------------------------------
+CLUSTERING...
+--------------------------------------------------
+
+
+--------------------------------------------------
+FILTERING...
+--------------------------------------------------
+
+Selected features: ['feature_2898', 'feature_4660', 'feature_2283', 'feature_4549', 'feature_3847', 'feature_973', 'feature_4062', 'feature_2759', 'feature_1416', 'feature_2439', 'feature_4339', 'feature_1139', 'feature_2515', 'feature_1212', 'feature_462', 'feature_4739', 'feature_36', 'feature_1560', 'feature_3349', 'feature_444']
+
+--------------------------------------------------
+VALUTAZIONE...
+--------------------------------------------------
+
+NMI: 0.0021 ± 0.0007
+ACC: 0.5023 ± 0.0003

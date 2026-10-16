@@ -1,0 +1,48 @@
+================================================================================
+CARA - FEATURE SELECTION SYSTEM USING AUTOENCODER
+================================================================================
+
+Esecuzione iniziata: 2026-03-14 11:25:00
+
+
+================================================================================
+CONFIGURAZIONE
+================================================================================
+Dataset: USPS
+Input folder: Raw_Datasets/
+Label column: label_usps
+Scaler: standard
+
+Clustering strategy: Hierarchical
+Clustering parameters: searching
+
+Autoencoder: LinearAE
+Learning rate: 0.001
+Epochs: 100
+
+Output folder: output_experiments_29_datasets_all_distances/usps/output_usps_30_hierarchical
+================================================================================
+
+
+--------------------------------------------------
+CARICAMENTO DATI
+--------------------------------------------------
+
+
+--------------------------------------------------
+CLUSTERING...
+--------------------------------------------------
+
+
+--------------------------------------------------
+FILTERING...
+--------------------------------------------------
+
+Selected features: ['feature_182', 'feature_215', 'feature_71', 'feature_153', 'feature_199', 'feature_135', 'feature_118', 'feature_133', 'feature_74', 'feature_73', 'feature_170', 'feature_201', 'feature_2', 'feature_35', 'feature_48', 'feature_21', 'feature_11', 'feature_139', 'feature_223', 'feature_236', 'feature_193', 'feature_174', 'feature_81', 'feature_98', 'feature_42', 'feature_25', 'feature_214', 'feature_69', 'feature_219', 'feature_147']
+
+--------------------------------------------------
+VALUTAZIONE...
+--------------------------------------------------
+
+NMI: 0.5205 ± 0.0024
+ACC: 0.6014 ± 0.0118

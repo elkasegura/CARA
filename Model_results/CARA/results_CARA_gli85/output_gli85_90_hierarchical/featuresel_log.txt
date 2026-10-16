@@ -1,0 +1,48 @@
+================================================================================
+CARA - FEATURE SELECTION SYSTEM USING AUTOENCODER
+================================================================================
+
+Esecuzione iniziata: 2026-03-12 08:14:37
+
+
+================================================================================
+CONFIGURAZIONE
+================================================================================
+Dataset: GLI-85
+Input folder: Raw_Datasets/
+Label column: label_gli85
+Scaler: standard
+
+Clustering strategy: Hierarchical
+Clustering parameters: searching
+
+Autoencoder: LinearAE
+Learning rate: 0.001
+Epochs: 100
+
+Output folder: output_experiments_29_datasets_all_distances/gli85/output_gli85_90_hierarchical
+================================================================================
+
+
+--------------------------------------------------
+CARICAMENTO DATI
+--------------------------------------------------
+
+
+--------------------------------------------------
+CLUSTERING...
+--------------------------------------------------
+
+
+--------------------------------------------------
+FILTERING...
+--------------------------------------------------
+
+Selected features: ['feature_7991', 'feature_19824', 'feature_6665', 'feature_10673', 'feature_16465', 'feature_19568', 'feature_5484', 'feature_5787', 'feature_16110', 'feature_16583', 'feature_10593', 'feature_10641', 'feature_7101', 'feature_16398', 'feature_15875', 'feature_21772', 'feature_20149', 'feature_19852', 'feature_20642', 'feature_15836', 'feature_16326', 'feature_19801', 'feature_18955', 'feature_14682', 'feature_12834', 'feature_14275', 'feature_18725', 'feature_16585', 'feature_13532', 'feature_18307', 'feature_10562', 'feature_978', 'feature_19531', 'feature_5812', 'feature_7518', 'feature_20924', 'feature_21597', 'feature_3496', 'feature_14406', 'feature_5918', 'feature_20648', 'feature_6896', 'feature_16812', 'feature_20562', 'feature_21372', 'feature_9262', 'feature_15338', 'feature_4747', 'feature_10589', 'feature_7707', 'feature_19299', 'feature_7760', 'feature_6209', 'feature_5755', 'feature_3762', 'feature_10750', 'feature_13293', 'feature_5462', 'feature_15821', 'feature_21512', 'feature_18007', 'feature_7176', 'feature_17724', 'feature_18646', 'feature_13979', 'feature_14257', 'feature_10748', 'feature_5440', 'feature_9335', 'feature_4033', 'feature_4051', 'feature_6861', 'feature_15171', 'feature_13573', 'feature_6608', 'feature_7706', 'feature_21990', 'feature_3426', 'feature_19748', 'feature_6467', 'feature_1911', 'feature_13261', 'feature_18809', 'feature_9564', 'feature_16596', 'feature_12406', 'feature_22190', 'feature_6161', 'feature_18045', 'feature_9188']
+
+--------------------------------------------------
+VALUTAZIONE...
+--------------------------------------------------
+
+NMI: 0.0022 ± 0.0014
+ACC: 0.5718 ± 0.0097

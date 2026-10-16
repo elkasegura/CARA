@@ -1,0 +1,48 @@
+================================================================================
+CARA - FEATURE SELECTION SYSTEM USING AUTOENCODER
+================================================================================
+
+Esecuzione iniziata: 2026-03-11 09:40:26
+
+
+================================================================================
+CONFIGURAZIONE
+================================================================================
+Dataset: Colon
+Input folder: Raw_Datasets/
+Label column: label_colon
+Scaler: standard
+
+Clustering strategy: Hierarchical
+Clustering parameters: searching
+
+Autoencoder: LinearAE
+Learning rate: 0.001
+Epochs: 100
+
+Output folder: output_experiments_29_datasets_all_distances/colon/output_colon_20_hierarchical
+================================================================================
+
+
+--------------------------------------------------
+CARICAMENTO DATI
+--------------------------------------------------
+
+
+--------------------------------------------------
+CLUSTERING...
+--------------------------------------------------
+
+
+--------------------------------------------------
+FILTERING...
+--------------------------------------------------
+
+Selected features: ['feature_415', 'feature_1828', 'feature_1380', 'feature_1493', 'feature_727', 'feature_1243', 'feature_1427', 'feature_654', 'feature_1697', 'feature_451', 'feature_1395', 'feature_1514', 'feature_372', 'feature_941', 'feature_1027', 'feature_618', 'feature_14', 'feature_215', 'feature_811', 'feature_302']
+
+--------------------------------------------------
+VALUTAZIONE...
+--------------------------------------------------
+
+NMI: 0.0045 ± 0.0000
+ACC: 0.5645 ± 0.0000

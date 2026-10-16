@@ -1,0 +1,48 @@
+================================================================================
+CARA - FEATURE SELECTION SYSTEM USING AUTOENCODER
+================================================================================
+
+Esecuzione iniziata: 2026-03-12 14:28:31
+
+
+================================================================================
+CONFIGURAZIONE
+================================================================================
+Dataset: Leukemia
+Input folder: Raw_Datasets/
+Label column: label_leukemia
+Scaler: standard
+
+Clustering strategy: Hierarchical
+Clustering parameters: searching
+
+Autoencoder: LinearAE
+Learning rate: 0.001
+Epochs: 100
+
+Output folder: output_experiments_29_datasets_all_distances/leukemia/output_leukemia_40_hierarchical
+================================================================================
+
+
+--------------------------------------------------
+CARICAMENTO DATI
+--------------------------------------------------
+
+
+--------------------------------------------------
+CLUSTERING...
+--------------------------------------------------
+
+
+--------------------------------------------------
+FILTERING...
+--------------------------------------------------
+
+Selected features: ['feature_4774', 'feature_6098', 'feature_3303', 'feature_2288', 'feature_1625', 'feature_633', 'feature_5081', 'feature_5701', 'feature_2892', 'feature_2554', 'feature_2926', 'feature_5677', 'feature_6077', 'feature_5485', 'feature_700', 'feature_3650', 'feature_6122', 'feature_655', 'feature_7013', 'feature_4749', 'feature_6515', 'feature_707', 'feature_930', 'feature_961', 'feature_3644', 'feature_3972', 'feature_4366', 'feature_5011', 'feature_4190', 'feature_423', 'feature_6646', 'feature_5272', 'feature_2525', 'feature_6081', 'feature_1640', 'feature_6563', 'feature_84', 'feature_4474', 'feature_933', 'feature_4488']
+
+--------------------------------------------------
+VALUTAZIONE...
+--------------------------------------------------
+
+NMI: 0.0510 ± 0.0129
+ACC: 0.6111 ± 0.0169

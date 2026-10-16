@@ -1,0 +1,48 @@
+================================================================================
+CARA - FEATURE SELECTION SYSTEM USING AUTOENCODER
+================================================================================
+
+Esecuzione iniziata: 2026-03-11 21:56:05
+
+
+================================================================================
+CONFIGURAZIONE
+================================================================================
+Dataset: GLI-85
+Input folder: Raw_Datasets/
+Label column: label_gli85
+Scaler: standard
+
+Clustering strategy: KMeans
+Clustering parameters: searching
+
+Autoencoder: LinearAE
+Learning rate: 0.001
+Epochs: 100
+
+Output folder: output_experiments_29_datasets_all_distances/gli85/output_gli85_50_kmeans
+================================================================================
+
+
+--------------------------------------------------
+CARICAMENTO DATI
+--------------------------------------------------
+
+
+--------------------------------------------------
+CLUSTERING...
+--------------------------------------------------
+
+
+--------------------------------------------------
+FILTERING...
+--------------------------------------------------
+
+Selected features: ['feature_4235', 'feature_9756', 'feature_14016', 'feature_2662', 'feature_5941', 'feature_16025', 'feature_13122', 'feature_19748', 'feature_18154', 'feature_6989', 'feature_21305', 'feature_22162', 'feature_14515', 'feature_15171', 'feature_19890', 'feature_13501', 'feature_10620', 'feature_18045', 'feature_6878', 'feature_10923', 'feature_13918', 'feature_16525', 'feature_20722', 'feature_18491', 'feature_6329', 'feature_10207', 'feature_20555', 'feature_4341', 'feature_6984', 'feature_14308', 'feature_10277', 'feature_1204', 'feature_10270', 'feature_16596', 'feature_5462', 'feature_13979', 'feature_4747', 'feature_15340', 'feature_12552', 'feature_16110', 'feature_19916', 'feature_10627', 'feature_10589', 'feature_21775', 'feature_21141', 'feature_8097', 'feature_7798', 'feature_5918', 'feature_9287', 'feature_9544']
+
+--------------------------------------------------
+VALUTAZIONE...
+--------------------------------------------------
+
+NMI: 0.0069 ± 0.0062
+ACC: 0.6447 ± 0.0130

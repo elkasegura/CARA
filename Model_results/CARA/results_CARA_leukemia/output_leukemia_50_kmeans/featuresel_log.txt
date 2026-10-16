@@ -1,0 +1,48 @@
+================================================================================
+CARA - FEATURE SELECTION SYSTEM USING AUTOENCODER
+================================================================================
+
+Esecuzione iniziata: 2026-03-12 14:46:59
+
+
+================================================================================
+CONFIGURAZIONE
+================================================================================
+Dataset: Leukemia
+Input folder: Raw_Datasets/
+Label column: label_leukemia
+Scaler: standard
+
+Clustering strategy: KMeans
+Clustering parameters: searching
+
+Autoencoder: LinearAE
+Learning rate: 0.001
+Epochs: 100
+
+Output folder: output_experiments_29_datasets_all_distances/leukemia/output_leukemia_50_kmeans
+================================================================================
+
+
+--------------------------------------------------
+CARICAMENTO DATI
+--------------------------------------------------
+
+
+--------------------------------------------------
+CLUSTERING...
+--------------------------------------------------
+
+
+--------------------------------------------------
+FILTERING...
+--------------------------------------------------
+
+Selected features: ['feature_2532', 'feature_4632', 'feature_5111', 'feature_6098', 'feature_1513', 'feature_4057', 'feature_2715', 'feature_961', 'feature_5449', 'feature_4978', 'feature_3109', 'feature_6953', 'feature_2288', 'feature_933', 'feature_5272', 'feature_1816', 'feature_814', 'feature_4774', 'feature_1413', 'feature_469', 'feature_5892', 'feature_404', 'feature_3139', 'feature_1749', 'feature_4096', 'feature_2551', 'feature_6028', 'feature_4366', 'feature_1021', 'feature_250', 'feature_6050', 'feature_5912', 'feature_5505', 'feature_114', 'feature_3247', 'feature_423', 'feature_5675', 'feature_2973', 'feature_5395', 'feature_700', 'feature_5086', 'feature_5910', 'feature_3505', 'feature_1760', 'feature_5390', 'feature_5479', 'feature_370', 'feature_930', 'feature_655', 'feature_5485']
+
+--------------------------------------------------
+VALUTAZIONE...
+--------------------------------------------------
+
+NMI: 0.0722 ± 0.0125
+ACC: 0.6424 ± 0.0155

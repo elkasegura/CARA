@@ -1,0 +1,48 @@
+================================================================================
+CARA - FEATURE SELECTION SYSTEM USING AUTOENCODER
+================================================================================
+
+Esecuzione iniziata: 2026-03-13 17:43:11
+
+
+================================================================================
+CONFIGURAZIONE
+================================================================================
+Dataset: SMK-CAN-187
+Input folder: Raw_Datasets/
+Label column: label_smk_can_187
+Scaler: standard
+
+Clustering strategy: Hierarchical
+Clustering parameters: searching
+
+Autoencoder: LinearAE
+Learning rate: 0.001
+Epochs: 100
+
+Output folder: output_experiments_29_datasets_all_distances/smkcan187/output_smkcan187_40_hierarchical
+================================================================================
+
+
+--------------------------------------------------
+CARICAMENTO DATI
+--------------------------------------------------
+
+
+--------------------------------------------------
+CLUSTERING...
+--------------------------------------------------
+
+
+--------------------------------------------------
+FILTERING...
+--------------------------------------------------
+
+Selected features: ['feature_15562', 'feature_12973', 'feature_35', 'feature_19709', 'feature_7809', 'feature_7909', 'feature_8034', 'feature_19820', 'feature_6654', 'feature_15576', 'feature_12170', 'feature_10005', 'feature_131', 'feature_19530', 'feature_1871', 'feature_4122', 'feature_2857', 'feature_951', 'feature_12760', 'feature_1517', 'feature_16917', 'feature_5721', 'feature_4476', 'feature_8867', 'feature_8239', 'feature_18601', 'feature_8466', 'feature_12238', 'feature_19787', 'feature_13624', 'feature_7835', 'feature_12888', 'feature_19903', 'feature_19933', 'feature_19911', 'feature_19973', 'feature_15324', 'feature_11758', 'feature_1598', 'feature_8062']
+
+--------------------------------------------------
+VALUTAZIONE...
+--------------------------------------------------
+
+NMI: 0.0192 ± 0.0000
+ACC: 0.5294 ± 0.0000

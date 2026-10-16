@@ -1,0 +1,6 @@
+2026-03-12 18:00:35 - INFO - Inizio log: output_experiments_29_datasets_all_distances/lung_small/output_lung_small_60_kmeans/clustering_searh_logs/kmeans_clustering_pearson.log
+2026-03-12 18:00:35 - INFO - Numero di features: 325, Numero di pazienti: 325
+2026-03-12 18:00:35 - INFO - Numero minimo di features per cluster: 5, Numero massimo di features per cluster: 5
+2026-03-12 18:00:35 - INFO - Numero minimo di cluster: 60, Numero massimo di cluster: 60
+2026-03-12 18:00:35 - INFO - Num clusters: 60, Silhouette Score: 0.1307, Davies-Bouldin Score: 1.8007, Avg features per cluster: 9.82, Single feature clusters %: 63.33333333333333
+2026-03-12 18:00:35 - INFO - Best result: {'num_clusters': 60, 'silhouette_score': 0.1306946433555805, 'davies_bouldin_score': 1.8007207301155057, 'avg_features_per_cluster': 9.818181818181818, 'single_feature_clusters_percentage': 63.33333333333333}

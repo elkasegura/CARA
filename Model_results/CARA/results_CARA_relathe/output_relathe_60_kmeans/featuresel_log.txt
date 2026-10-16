@@ -1,0 +1,48 @@
+================================================================================
+CARA - FEATURE SELECTION SYSTEM USING AUTOENCODER
+================================================================================
+
+Esecuzione iniziata: 2026-03-13 10:53:17
+
+
+================================================================================
+CONFIGURAZIONE
+================================================================================
+Dataset: RELATHE
+Input folder: Raw_Datasets/
+Label column: label_relathe
+Scaler: standard
+
+Clustering strategy: KMeans
+Clustering parameters: searching
+
+Autoencoder: LinearAE
+Learning rate: 0.001
+Epochs: 100
+
+Output folder: output_experiments_29_datasets_all_distances/relathe/output_relathe_60_kmeans
+================================================================================
+
+
+--------------------------------------------------
+CARICAMENTO DATI
+--------------------------------------------------
+
+
+--------------------------------------------------
+CLUSTERING...
+--------------------------------------------------
+
+
+--------------------------------------------------
+FILTERING...
+--------------------------------------------------
+
+Selected features: ['feature_4208', 'feature_1672', 'feature_1974', 'feature_2256', 'feature_2725', 'feature_3556', 'feature_3772', 'feature_2286', 'feature_2292', 'feature_291', 'feature_3597', 'feature_2637', 'feature_1155', 'feature_2498', 'feature_1680', 'feature_2959', 'feature_1815', 'feature_1645', 'feature_1001', 'feature_2414', 'feature_588', 'feature_2559', 'feature_4049', 'feature_1169', 'feature_4083', 'feature_2174', 'feature_1233', 'feature_3292', 'feature_4262', 'feature_984', 'feature_4139', 'feature_3363', 'feature_751', 'feature_29', 'feature_2649', 'feature_2655', 'feature_159', 'feature_3044', 'feature_596', 'feature_529', 'feature_4036', 'feature_3770', 'feature_302', 'feature_2260', 'feature_2329', 'feature_2150', 'feature_797', 'feature_1845', 'feature_2911', 'feature_337', 'feature_3371', 'feature_229', 'feature_1414', 'feature_2477', 'feature_2749', 'feature_3833', 'feature_1134', 'feature_2482', 'feature_4001', 'feature_408']
+
+--------------------------------------------------
+VALUTAZIONE...
+--------------------------------------------------
+
+NMI: 0.0219 ± 0.0160
+ACC: 0.5318 ± 0.0105

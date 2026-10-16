@@ -1,0 +1,48 @@
+================================================================================
+CARA - FEATURE SELECTION SYSTEM USING AUTOENCODER
+================================================================================
+
+Esecuzione iniziata: 2026-03-13 23:00:03
+
+
+================================================================================
+CONFIGURAZIONE
+================================================================================
+Dataset: SMK-CAN-187
+Input folder: Raw_Datasets/
+Label column: label_smk_can_187
+Scaler: standard
+
+Clustering strategy: Hierarchical
+Clustering parameters: searching
+
+Autoencoder: LinearAE
+Learning rate: 0.001
+Epochs: 100
+
+Output folder: output_experiments_29_datasets_all_distances/smkcan187/output_smkcan187_70_hierarchical
+================================================================================
+
+
+--------------------------------------------------
+CARICAMENTO DATI
+--------------------------------------------------
+
+
+--------------------------------------------------
+CLUSTERING...
+--------------------------------------------------
+
+
+--------------------------------------------------
+FILTERING...
+--------------------------------------------------
+
+Selected features: ['feature_19074', 'feature_1740', 'feature_12973', 'feature_16883', 'feature_35', 'feature_9064', 'feature_5262', 'feature_1089', 'feature_10022', 'feature_4488', 'feature_7909', 'feature_16191', 'feature_2215', 'feature_18645', 'feature_19820', 'feature_701', 'feature_6654', 'feature_15576', 'feature_17145', 'feature_12170', 'feature_8863', 'feature_10005', 'feature_131', 'feature_9327', 'feature_10777', 'feature_15933', 'feature_1871', 'feature_4122', 'feature_16689', 'feature_2857', 'feature_13867', 'feature_12760', 'feature_1091', 'feature_2535', 'feature_19321', 'feature_1997', 'feature_3840', 'feature_16262', 'feature_5721', 'feature_19018', 'feature_4476', 'feature_8867', 'feature_8239', 'feature_18601', 'feature_19882', 'feature_4292', 'feature_8408', 'feature_12238', 'feature_19972', 'feature_17579', 'feature_19787', 'feature_5663', 'feature_13624', 'feature_14984', 'feature_19532', 'feature_19906', 'feature_12888', 'feature_17474', 'feature_19903', 'feature_19792', 'feature_19702', 'feature_19737', 'feature_19911', 'feature_19893', 'feature_18302', 'feature_15324', 'feature_11758', 'feature_1598', 'feature_12596', 'feature_2648']
+
+--------------------------------------------------
+VALUTAZIONE...
+--------------------------------------------------
+
+NMI: 0.0139 ± 0.0017
+ACC: 0.5241 ± 0.0052

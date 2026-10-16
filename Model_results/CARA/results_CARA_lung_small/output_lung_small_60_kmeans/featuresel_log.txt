@@ -1,0 +1,48 @@
+================================================================================
+CARA - FEATURE SELECTION SYSTEM USING AUTOENCODER
+================================================================================
+
+Esecuzione iniziata: 2026-03-12 18:00:33
+
+
+================================================================================
+CONFIGURAZIONE
+================================================================================
+Dataset: lung_small
+Input folder: Raw_Datasets/
+Label column: label_lung_small
+Scaler: standard
+
+Clustering strategy: KMeans
+Clustering parameters: searching
+
+Autoencoder: LinearAE
+Learning rate: 0.001
+Epochs: 100
+
+Output folder: output_experiments_29_datasets_all_distances/lung_small/output_lung_small_60_kmeans
+================================================================================
+
+
+--------------------------------------------------
+CARICAMENTO DATI
+--------------------------------------------------
+
+
+--------------------------------------------------
+CLUSTERING...
+--------------------------------------------------
+
+
+--------------------------------------------------
+FILTERING...
+--------------------------------------------------
+
+Selected features: ['feature_126', 'feature_19', 'feature_284', 'feature_30', 'feature_74', 'feature_269', 'feature_190', 'feature_192', 'feature_99', 'feature_18', 'feature_8', 'feature_273', 'feature_142', 'feature_295', 'feature_63', 'feature_90', 'feature_23', 'feature_137', 'feature_296', 'feature_47', 'feature_108', 'feature_167', 'feature_270', 'feature_131', 'feature_291', 'feature_120', 'feature_140', 'feature_132', 'feature_27', 'feature_15', 'feature_5', 'feature_322', 'feature_21', 'feature_11', 'feature_246', 'feature_150', 'feature_320', 'feature_73', 'feature_135', 'feature_104', 'feature_45', 'feature_194', 'feature_4', 'feature_319', 'feature_292', 'feature_20', 'feature_251', 'feature_107', 'feature_116', 'feature_68', 'feature_133', 'feature_321', 'feature_44', 'feature_250', 'feature_25', 'feature_231', 'feature_166', 'feature_46', 'feature_170', 'feature_281']
+
+--------------------------------------------------
+VALUTAZIONE...
+--------------------------------------------------
+
+NMI: 0.7483 ± 0.0439
+ACC: 0.7938 ± 0.0660

@@ -1,0 +1,48 @@
+================================================================================
+CARA - FEATURE SELECTION SYSTEM USING AUTOENCODER
+================================================================================
+
+Esecuzione iniziata: 2026-03-12 14:12:16
+
+
+================================================================================
+CONFIGURAZIONE
+================================================================================
+Dataset: Leukemia
+Input folder: Raw_Datasets/
+Label column: label_leukemia
+Scaler: standard
+
+Clustering strategy: Hierarchical
+Clustering parameters: searching
+
+Autoencoder: LinearAE
+Learning rate: 0.001
+Epochs: 100
+
+Output folder: output_experiments_29_datasets_all_distances/leukemia/output_leukemia_20_hierarchical
+================================================================================
+
+
+--------------------------------------------------
+CARICAMENTO DATI
+--------------------------------------------------
+
+
+--------------------------------------------------
+CLUSTERING...
+--------------------------------------------------
+
+
+--------------------------------------------------
+FILTERING...
+--------------------------------------------------
+
+Selected features: ['feature_3303', 'feature_2288', 'feature_633', 'feature_5701', 'feature_2892', 'feature_2715', 'feature_6077', 'feature_6123', 'feature_655', 'feature_7013', 'feature_930', 'feature_3972', 'feature_5505', 'feature_3376', 'feature_5272', 'feature_7006', 'feature_6563', 'feature_2859', 'feature_933', 'feature_4488']
+
+--------------------------------------------------
+VALUTAZIONE...
+--------------------------------------------------
+
+NMI: 0.0126 ± 0.0197
+ACC: 0.5299 ± 0.0093

@@ -1,0 +1,48 @@
+================================================================================
+CARA - FEATURE SELECTION SYSTEM USING AUTOENCODER
+================================================================================
+
+Esecuzione iniziata: 2026-03-11 09:42:01
+
+
+================================================================================
+CONFIGURAZIONE
+================================================================================
+Dataset: Colon
+Input folder: Raw_Datasets/
+Label column: label_colon
+Scaler: standard
+
+Clustering strategy: KMeans
+Clustering parameters: searching
+
+Autoencoder: LinearAE
+Learning rate: 0.001
+Epochs: 100
+
+Output folder: output_experiments_29_datasets_all_distances/colon/output_colon_40_kmeans
+================================================================================
+
+
+--------------------------------------------------
+CARICAMENTO DATI
+--------------------------------------------------
+
+
+--------------------------------------------------
+CLUSTERING...
+--------------------------------------------------
+
+
+--------------------------------------------------
+FILTERING...
+--------------------------------------------------
+
+Selected features: ['feature_451', 'feature_229', 'feature_875', 'feature_196', 'feature_255', 'feature_1284', 'feature_1028', 'feature_218', 'feature_14', 'feature_1532', 'feature_752', 'feature_372', 'feature_530', 'feature_1803', 'feature_19', 'feature_1580', 'feature_375', 'feature_879', 'feature_269', 'feature_895', 'feature_749', 'feature_512', 'feature_545', 'feature_1415', 'feature_1838', 'feature_1633', 'feature_1433', 'feature_477', 'feature_415', 'feature_280', 'feature_511', 'feature_727', 'feature_876', 'feature_416', 'feature_1894', 'feature_374', 'feature_1380', 'feature_192', 'feature_618', 'feature_1027']
+
+--------------------------------------------------
+VALUTAZIONE...
+--------------------------------------------------
+
+NMI: 0.0008 ± 0.0000
+ACC: 0.5484 ± 0.0000

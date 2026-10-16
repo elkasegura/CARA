@@ -1,0 +1,48 @@
+================================================================================
+CARA - FEATURE SELECTION SYSTEM USING AUTOENCODER
+================================================================================
+
+Esecuzione iniziata: 2026-03-12 18:08:30
+
+
+================================================================================
+CONFIGURAZIONE
+================================================================================
+Dataset: Lymphoma
+Input folder: Raw_Datasets/
+Label column: label_lymphoma
+Scaler: standard
+
+Clustering strategy: Hierarchical
+Clustering parameters: searching
+
+Autoencoder: LinearAE
+Learning rate: 0.001
+Epochs: 100
+
+Output folder: output_experiments_29_datasets_all_distances/lymphoma/output_lymphoma_30_hierarchical
+================================================================================
+
+
+--------------------------------------------------
+CARICAMENTO DATI
+--------------------------------------------------
+
+
+--------------------------------------------------
+CLUSTERING...
+--------------------------------------------------
+
+
+--------------------------------------------------
+FILTERING...
+--------------------------------------------------
+
+Selected features: ['feature_2876', 'feature_2746', 'feature_3859', 'feature_3762', 'feature_3815', 'feature_2046', 'feature_1757', 'feature_1795', 'feature_2909', 'feature_2907', 'feature_1827', 'feature_3254', 'feature_2212', 'feature_2302', 'feature_433', 'feature_365', 'feature_3661', 'feature_3744', 'feature_698', 'feature_1276', 'feature_1913', 'feature_2138', 'feature_2094', 'feature_763', 'feature_259', 'feature_3362', 'feature_823', 'feature_906', 'feature_1825', 'feature_2070']
+
+--------------------------------------------------
+VALUTAZIONE...
+--------------------------------------------------
+
+NMI: 0.6174 ± 0.0356
+ACC: 0.5396 ± 0.0525

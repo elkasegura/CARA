@@ -1,0 +1,27 @@
+clustering:
+  cluster_on_correlation: true
+  number_of_clusters: 100
+  parameters: searching
+  range_n_clusters: 0
+  strategy: Hierarchical
+dataset:
+  input_folder: data/
+  label_column: label_orlraws10p
+  name: orlraws10P
+  scaler: standard
+filters:
+  autoencoder_parameters:
+    AE_name: LinearAE
+    epochs: 100
+    lr: 0.001
+    n_layers:
+    - 1
+    - 2
+    - 3
+    - 4
+  filter_type: AE
+  medoid_parameters:
+    distance_metric: euclidean
+output:
+  logs_folder: Model_results/CARA/results_CARA_orlraws10p/output_orlraws10p_100_hierarchical
+  output_folder: Model_results/CARA/results_CARA_orlraws10p/output_orlraws10p_100_hierarchical

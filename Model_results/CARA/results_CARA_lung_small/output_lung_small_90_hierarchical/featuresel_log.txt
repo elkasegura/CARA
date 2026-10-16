@@ -1,0 +1,48 @@
+================================================================================
+CARA - FEATURE SELECTION SYSTEM USING AUTOENCODER
+================================================================================
+
+Esecuzione iniziata: 2026-03-12 18:01:31
+
+
+================================================================================
+CONFIGURAZIONE
+================================================================================
+Dataset: lung_small
+Input folder: Raw_Datasets/
+Label column: label_lung_small
+Scaler: standard
+
+Clustering strategy: Hierarchical
+Clustering parameters: searching
+
+Autoencoder: LinearAE
+Learning rate: 0.001
+Epochs: 100
+
+Output folder: output_experiments_29_datasets_all_distances/lung_small/output_lung_small_90_hierarchical
+================================================================================
+
+
+--------------------------------------------------
+CARICAMENTO DATI
+--------------------------------------------------
+
+
+--------------------------------------------------
+CLUSTERING...
+--------------------------------------------------
+
+
+--------------------------------------------------
+FILTERING...
+--------------------------------------------------
+
+Selected features: ['feature_111', 'feature_130', 'feature_53', 'feature_52', 'feature_135', 'feature_21', 'feature_32', 'feature_235', 'feature_274', 'feature_49', 'feature_321', 'feature_47', 'feature_184', 'feature_280', 'feature_221', 'feature_167', 'feature_218', 'feature_64', 'feature_209', 'feature_199', 'feature_34', 'feature_313', 'feature_282', 'feature_137', 'feature_158', 'feature_194', 'feature_295', 'feature_180', 'feature_228', 'feature_33', 'feature_126', 'feature_15', 'feature_5', 'feature_31', 'feature_4', 'feature_25', 'feature_30', 'feature_133', 'feature_72', 'feature_94', 'feature_139', 'feature_59', 'feature_81', 'feature_73', 'feature_63', 'feature_67', 'feature_136', 'feature_262', 'feature_232', 'feature_318', 'feature_54', 'feature_297', 'feature_10', 'feature_210', 'feature_179', 'feature_168', 'feature_16', 'feature_35', 'feature_189', 'feature_191', 'feature_290', 'feature_82', 'feature_86', 'feature_322', 'feature_269', 'feature_250', 'feature_28', 'feature_303', 'feature_287', 'feature_208', 'feature_18', 'feature_220', 'feature_306', 'feature_320', 'feature_163', 'feature_145', 'feature_293', 'feature_304', 'feature_68', 'feature_38', 'feature_261', 'feature_271', 'feature_251', 'feature_44', 'feature_182', 'feature_273', 'feature_296', 'feature_315', 'feature_254', 'feature_99']
+
+--------------------------------------------------
+VALUTAZIONE...
+--------------------------------------------------
+
+NMI: 0.7212 ± 0.0375
+ACC: 0.7719 ± 0.0566

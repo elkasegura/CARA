@@ -1,0 +1,48 @@
+================================================================================
+CARA - FEATURE SELECTION SYSTEM USING AUTOENCODER
+================================================================================
+
+Esecuzione iniziata: 2026-03-12 18:00:03
+
+
+================================================================================
+CONFIGURAZIONE
+================================================================================
+Dataset: lung_small
+Input folder: Raw_Datasets/
+Label column: label_lung_small
+Scaler: standard
+
+Clustering strategy: Hierarchical
+Clustering parameters: searching
+
+Autoencoder: LinearAE
+Learning rate: 0.001
+Epochs: 100
+
+Output folder: output_experiments_29_datasets_all_distances/lung_small/output_lung_small_50_hierarchical
+================================================================================
+
+
+--------------------------------------------------
+CARICAMENTO DATI
+--------------------------------------------------
+
+
+--------------------------------------------------
+CLUSTERING...
+--------------------------------------------------
+
+
+--------------------------------------------------
+FILTERING...
+--------------------------------------------------
+
+Selected features: ['feature_211', 'feature_135', 'feature_21', 'feature_32', 'feature_274', 'feature_321', 'feature_184', 'feature_280', 'feature_221', 'feature_218', 'feature_169', 'feature_281', 'feature_137', 'feature_158', 'feature_194', 'feature_180', 'feature_228', 'feature_33', 'feature_126', 'feature_15', 'feature_5', 'feature_4', 'feature_30', 'feature_72', 'feature_94', 'feature_139', 'feature_73', 'feature_63', 'feature_67', 'feature_232', 'feature_54', 'feature_289', 'feature_210', 'feature_268', 'feature_19', 'feature_151', 'feature_86', 'feature_322', 'feature_250', 'feature_287', 'feature_18', 'feature_248', 'feature_145', 'feature_68', 'feature_38', 'feature_251', 'feature_44', 'feature_238', 'feature_296', 'feature_300']
+
+--------------------------------------------------
+VALUTAZIONE...
+--------------------------------------------------
+
+NMI: 0.6798 ± 0.0298
+ACC: 0.7377 ± 0.0438

@@ -1,0 +1,48 @@
+================================================================================
+CARA - FEATURE SELECTION SYSTEM USING AUTOENCODER
+================================================================================
+
+Esecuzione iniziata: 2026-03-12 18:22:07
+
+
+================================================================================
+CONFIGURAZIONE
+================================================================================
+Dataset: Lymphoma
+Input folder: Raw_Datasets/
+Label column: label_lymphoma
+Scaler: standard
+
+Clustering strategy: Hierarchical
+Clustering parameters: searching
+
+Autoencoder: LinearAE
+Learning rate: 0.001
+Epochs: 100
+
+Output folder: output_experiments_29_datasets_all_distances/lymphoma/output_lymphoma_70_hierarchical
+================================================================================
+
+
+--------------------------------------------------
+CARICAMENTO DATI
+--------------------------------------------------
+
+
+--------------------------------------------------
+CLUSTERING...
+--------------------------------------------------
+
+
+--------------------------------------------------
+FILTERING...
+--------------------------------------------------
+
+Selected features: ['feature_302', 'feature_433', 'feature_289', 'feature_2292', 'feature_2100', 'feature_2225', 'feature_1937', 'feature_3254', 'feature_2071', 'feature_3', 'feature_2541', 'feature_2179', 'feature_2264', 'feature_430', 'feature_2212', 'feature_2182', 'feature_2369', 'feature_1913', 'feature_29', 'feature_87', 'feature_90', 'feature_3337', 'feature_3461', 'feature_480', 'feature_1984', 'feature_33', 'feature_3356', 'feature_2415', 'feature_1350', 'feature_3529', 'feature_2437', 'feature_1477', 'feature_3247', 'feature_1566', 'feature_1757', 'feature_1763', 'feature_1730', 'feature_1199', 'feature_3591', 'feature_365', 'feature_405', 'feature_1827', 'feature_3056', 'feature_2131', 'feature_3365', 'feature_1704', 'feature_2876', 'feature_2898', 'feature_2256', 'feature_257', 'feature_3935', 'feature_945', 'feature_3738', 'feature_2914', 'feature_3064', 'feature_772', 'feature_328', 'feature_31', 'feature_2398', 'feature_3795', 'feature_3822', 'feature_818', 'feature_2796', 'feature_2745', 'feature_2751', 'feature_2714', 'feature_2941', 'feature_588', 'feature_3858', 'feature_3014']
+
+--------------------------------------------------
+VALUTAZIONE...
+--------------------------------------------------
+
+NMI: 0.6664 ± 0.0281
+ACC: 0.5771 ± 0.0405

@@ -1,0 +1,48 @@
+================================================================================
+CARA - FEATURE SELECTION SYSTEM USING AUTOENCODER
+================================================================================
+
+Esecuzione iniziata: 2026-03-13 03:31:42
+
+
+================================================================================
+CONFIGURAZIONE
+================================================================================
+Dataset: PCMAC
+Input folder: Raw_Datasets/
+Label column: label_pcmac
+Scaler: standard
+
+Clustering strategy: KMeans
+Clustering parameters: searching
+
+Autoencoder: LinearAE
+Learning rate: 0.001
+Epochs: 100
+
+Output folder: output_experiments_29_datasets_all_distances/pcmac/output_pcmac_100_kmeans
+================================================================================
+
+
+--------------------------------------------------
+CARICAMENTO DATI
+--------------------------------------------------
+
+
+--------------------------------------------------
+CLUSTERING...
+--------------------------------------------------
+
+
+--------------------------------------------------
+FILTERING...
+--------------------------------------------------
+
+Selected features: ['feature_2779', 'feature_370', 'feature_384', 'feature_963', 'feature_114', 'feature_883', 'feature_855', 'feature_2108', 'feature_480', 'feature_671', 'feature_1215', 'feature_980', 'feature_969', 'feature_2077', 'feature_2203', 'feature_3238', 'feature_3087', 'feature_1984', 'feature_2611', 'feature_1271', 'feature_864', 'feature_1315', 'feature_613', 'feature_1099', 'feature_1405', 'feature_283', 'feature_2357', 'feature_1033', 'feature_2602', 'feature_1207', 'feature_2320', 'feature_237', 'feature_1953', 'feature_1767', 'feature_1855', 'feature_1224', 'feature_1880', 'feature_1012', 'feature_2492', 'feature_2608', 'feature_3031', 'feature_3035', 'feature_1634', 'feature_1210', 'feature_804', 'feature_275', 'feature_2539', 'feature_1107', 'feature_2722', 'feature_810', 'feature_1743', 'feature_2498', 'feature_221', 'feature_3288', 'feature_3140', 'feature_1102', 'feature_18', 'feature_3091', 'feature_1700', 'feature_2455', 'feature_217', 'feature_775', 'feature_745', 'feature_1870', 'feature_2489', 'feature_3083', 'feature_1604', 'feature_2780', 'feature_65', 'feature_2144', 'feature_2882', 'feature_2966', 'feature_2568', 'feature_1585', 'feature_1661', 'feature_3070', 'feature_621', 'feature_57', 'feature_1830', 'feature_1874', 'feature_2601', 'feature_1439', 'feature_1021', 'feature_862', 'feature_476', 'feature_3059', 'feature_2592', 'feature_748', 'feature_239', 'feature_267', 'feature_2397', 'feature_1037', 'feature_2204', 'feature_2328', 'feature_1059', 'feature_3024', 'feature_2479', 'feature_3248', 'feature_1304', 'feature_1988']
+
+--------------------------------------------------
+VALUTAZIONE...
+--------------------------------------------------
+
+NMI: 0.0003 ± 0.0000
+ACC: 0.5059 ± 0.0000

@@ -1,0 +1,48 @@
+================================================================================
+CARA - FEATURE SELECTION SYSTEM USING AUTOENCODER
+================================================================================
+
+Esecuzione iniziata: 2026-03-14 11:33:34
+
+
+================================================================================
+CONFIGURAZIONE
+================================================================================
+Dataset: USPS
+Input folder: Raw_Datasets/
+Label column: label_usps
+Scaler: standard
+
+Clustering strategy: KMeans
+Clustering parameters: searching
+
+Autoencoder: LinearAE
+Learning rate: 0.001
+Epochs: 100
+
+Output folder: output_experiments_29_datasets_all_distances/usps/output_usps_40_kmeans
+================================================================================
+
+
+--------------------------------------------------
+CARICAMENTO DATI
+--------------------------------------------------
+
+
+--------------------------------------------------
+CLUSTERING...
+--------------------------------------------------
+
+
+--------------------------------------------------
+FILTERING...
+--------------------------------------------------
+
+Selected features: ['feature_40', 'feature_32', 'feature_219', 'feature_107', 'feature_133', 'feature_82', 'feature_71', 'feature_191', 'feature_249', 'feature_6', 'feature_170', 'feature_169', 'feature_105', 'feature_152', 'feature_11', 'feature_99', 'feature_182', 'feature_106', 'feature_228', 'feature_178', 'feature_238', 'feature_116', 'feature_216', 'feature_8', 'feature_252', 'feature_94', 'feature_76', 'feature_46', 'feature_225', 'feature_129', 'feature_26', 'feature_104', 'feature_19', 'feature_202', 'feature_180', 'feature_86', 'feature_118', 'feature_224', 'feature_232', 'feature_213']
+
+--------------------------------------------------
+VALUTAZIONE...
+--------------------------------------------------
+
+NMI: 0.5915 ± 0.0006
+ACC: 0.6113 ± 0.0008

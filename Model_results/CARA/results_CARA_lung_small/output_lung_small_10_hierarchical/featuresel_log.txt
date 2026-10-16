@@ -1,0 +1,48 @@
+================================================================================
+CARA - FEATURE SELECTION SYSTEM USING AUTOENCODER
+================================================================================
+
+Esecuzione iniziata: 2026-03-12 17:59:01
+
+
+================================================================================
+CONFIGURAZIONE
+================================================================================
+Dataset: lung_small
+Input folder: Raw_Datasets/
+Label column: label_lung_small
+Scaler: standard
+
+Clustering strategy: Hierarchical
+Clustering parameters: searching
+
+Autoencoder: LinearAE
+Learning rate: 0.001
+Epochs: 100
+
+Output folder: output_experiments_29_datasets_all_distances/lung_small/output_lung_small_10_hierarchical
+================================================================================
+
+
+--------------------------------------------------
+CARICAMENTO DATI
+--------------------------------------------------
+
+
+--------------------------------------------------
+CLUSTERING...
+--------------------------------------------------
+
+
+--------------------------------------------------
+FILTERING...
+--------------------------------------------------
+
+Selected features: ['feature_30', 'feature_86', 'feature_99', 'feature_73', 'feature_133', 'feature_98', 'feature_6', 'feature_4', 'feature_176', 'feature_22']
+
+--------------------------------------------------
+VALUTAZIONE...
+--------------------------------------------------
+
+NMI: 0.5788 ± 0.0413
+ACC: 0.6034 ± 0.0584

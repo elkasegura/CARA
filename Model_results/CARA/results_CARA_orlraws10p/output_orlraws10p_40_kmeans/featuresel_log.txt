@@ -1,0 +1,48 @@
+================================================================================
+CARA - FEATURE SELECTION SYSTEM USING AUTOENCODER
+================================================================================
+
+Esecuzione iniziata: 2026-03-13 00:42:37
+
+
+================================================================================
+CONFIGURAZIONE
+================================================================================
+Dataset: orlraws10P
+Input folder: Raw_Datasets/
+Label column: label_orlraws10p
+Scaler: standard
+
+Clustering strategy: KMeans
+Clustering parameters: searching
+
+Autoencoder: LinearAE
+Learning rate: 0.001
+Epochs: 100
+
+Output folder: output_experiments_29_datasets_all_distances/orlraws10p/output_orlraws10p_40_kmeans
+================================================================================
+
+
+--------------------------------------------------
+CARICAMENTO DATI
+--------------------------------------------------
+
+
+--------------------------------------------------
+CLUSTERING...
+--------------------------------------------------
+
+
+--------------------------------------------------
+FILTERING...
+--------------------------------------------------
+
+Selected features: ['feature_599', 'feature_2210', 'feature_9411', 'feature_430', 'feature_4936', 'feature_4513', 'feature_1788', 'feature_331', 'feature_1851', 'feature_907', 'feature_8685', 'feature_7039', 'feature_5038', 'feature_6491', 'feature_9961', 'feature_965', 'feature_4412', 'feature_3458', 'feature_2864', 'feature_6363', 'feature_3097', 'feature_5636', 'feature_9048', 'feature_365', 'feature_2197', 'feature_4309', 'feature_9336', 'feature_4528', 'feature_4622', 'feature_3245', 'feature_2161', 'feature_8145', 'feature_9614', 'feature_4183', 'feature_418', 'feature_5993', 'feature_5288', 'feature_8084', 'feature_3235', 'feature_7157']
+
+--------------------------------------------------
+VALUTAZIONE...
+--------------------------------------------------
+
+NMI: 0.7955 ± 0.0169
+ACC: 0.7555 ± 0.0343

@@ -1,0 +1,48 @@
+================================================================================
+CARA - FEATURE SELECTION SYSTEM USING AUTOENCODER
+================================================================================
+
+Esecuzione iniziata: 2026-03-14 12:13:59
+
+
+================================================================================
+CONFIGURAZIONE
+================================================================================
+Dataset: USPS
+Input folder: Raw_Datasets/
+Label column: label_usps
+Scaler: standard
+
+Clustering strategy: Hierarchical
+Clustering parameters: searching
+
+Autoencoder: LinearAE
+Learning rate: 0.001
+Epochs: 100
+
+Output folder: output_experiments_29_datasets_all_distances/usps/output_usps_80_hierarchical
+================================================================================
+
+
+--------------------------------------------------
+CARICAMENTO DATI
+--------------------------------------------------
+
+
+--------------------------------------------------
+CLUSTERING...
+--------------------------------------------------
+
+
+--------------------------------------------------
+FILTERING...
+--------------------------------------------------
+
+Selected features: ['feature_248', 'feature_7', 'feature_70', 'feature_86', 'feature_38', 'feature_41', 'feature_39', 'feature_214', 'feature_57', 'feature_215', 'feature_72', 'feature_71', 'feature_233', 'feature_235', 'feature_244', 'feature_246', 'feature_212', 'feature_156', 'feature_204', 'feature_181', 'feature_180', 'feature_155', 'feature_202', 'feature_132', 'feature_100', 'feature_170', 'feature_201', 'feature_117', 'feature_133', 'feature_161', 'feature_205', 'feature_209', 'feature_191', 'feature_224', 'feature_242', 'feature_254', 'feature_252', 'feature_98', 'feature_68', 'feature_67', 'feature_163', 'feature_141', 'feature_112', 'feature_143', 'feature_65', 'feature_81', 'feature_78', 'feature_93', 'feature_153', 'feature_185', 'feature_122', 'feature_138', 'feature_121', 'feature_73', 'feature_102', 'feature_104', 'feature_151', 'feature_134', 'feature_198', 'feature_199', 'feature_168', 'feature_9', 'feature_10', 'feature_74', 'feature_58', 'feature_75', 'feature_123', 'feature_108', 'feature_14', 'feature_62', 'feature_12', 'feature_61', 'feature_48', 'feature_1', 'feature_3', 'feature_22', 'feature_5', 'feature_37', 'feature_34', 'feature_50']
+
+--------------------------------------------------
+VALUTAZIONE...
+--------------------------------------------------
+
+NMI: 0.5732 ± 0.0009
+ACC: 0.6100 ± 0.0009

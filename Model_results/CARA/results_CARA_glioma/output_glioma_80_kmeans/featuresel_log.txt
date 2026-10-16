@@ -1,0 +1,48 @@
+================================================================================
+CARA - FEATURE SELECTION SYSTEM USING AUTOENCODER
+================================================================================
+
+Esecuzione iniziata: 2026-03-12 12:20:10
+
+
+================================================================================
+CONFIGURAZIONE
+================================================================================
+Dataset: GLIOMA
+Input folder: Raw_Datasets/
+Label column: label_glioma
+Scaler: standard
+
+Clustering strategy: KMeans
+Clustering parameters: searching
+
+Autoencoder: LinearAE
+Learning rate: 0.001
+Epochs: 100
+
+Output folder: output_experiments_29_datasets_all_distances/glioma/output_glioma_80_kmeans
+================================================================================
+
+
+--------------------------------------------------
+CARICAMENTO DATI
+--------------------------------------------------
+
+
+--------------------------------------------------
+CLUSTERING...
+--------------------------------------------------
+
+
+--------------------------------------------------
+FILTERING...
+--------------------------------------------------
+
+Selected features: ['feature_948', 'feature_1305', 'feature_2447', 'feature_4332', 'feature_2859', 'feature_3276', 'feature_1659', 'feature_1341', 'feature_2672', 'feature_1458', 'feature_2126', 'feature_4334', 'feature_4345', 'feature_323', 'feature_233', 'feature_40', 'feature_554', 'feature_2142', 'feature_325', 'feature_2959', 'feature_3518', 'feature_992', 'feature_2982', 'feature_3229', 'feature_3190', 'feature_2127', 'feature_3704', 'feature_4060', 'feature_781', 'feature_2858', 'feature_3353', 'feature_2436', 'feature_1710', 'feature_2358', 'feature_3228', 'feature_2906', 'feature_1437', 'feature_2632', 'feature_829', 'feature_960', 'feature_4398', 'feature_4030', 'feature_1654', 'feature_99', 'feature_254', 'feature_2773', 'feature_2191', 'feature_1793', 'feature_4226', 'feature_49', 'feature_4159', 'feature_1945', 'feature_976', 'feature_2167', 'feature_302', 'feature_3128', 'feature_201', 'feature_2212', 'feature_1584', 'feature_2428', 'feature_1684', 'feature_3059', 'feature_2104', 'feature_4227', 'feature_4341', 'feature_2318', 'feature_4010', 'feature_306', 'feature_2937', 'feature_496', 'feature_4269', 'feature_1889', 'feature_1504', 'feature_871', 'feature_36', 'feature_1896', 'feature_679', 'feature_2201', 'feature_365', 'feature_2144']
+
+--------------------------------------------------
+VALUTAZIONE...
+--------------------------------------------------
+
+NMI: 0.5193 ± 0.0249
+ACC: 0.6150 ± 0.0343

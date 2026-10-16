@@ -1,0 +1,48 @@
+================================================================================
+CARA - FEATURE SELECTION SYSTEM USING AUTOENCODER
+================================================================================
+
+Esecuzione iniziata: 2026-03-12 11:38:24
+
+
+================================================================================
+CONFIGURAZIONE
+================================================================================
+Dataset: GLIOMA
+Input folder: Raw_Datasets/
+Label column: label_glioma
+Scaler: standard
+
+Clustering strategy: KMeans
+Clustering parameters: searching
+
+Autoencoder: LinearAE
+Learning rate: 0.001
+Epochs: 100
+
+Output folder: output_experiments_29_datasets_all_distances/glioma/output_glioma_20_kmeans
+================================================================================
+
+
+--------------------------------------------------
+CARICAMENTO DATI
+--------------------------------------------------
+
+
+--------------------------------------------------
+CLUSTERING...
+--------------------------------------------------
+
+
+--------------------------------------------------
+FILTERING...
+--------------------------------------------------
+
+Selected features: ['feature_1532', 'feature_3755', 'feature_2471', 'feature_4116', 'feature_1355', 'feature_4100', 'feature_4226', 'feature_3666', 'feature_854', 'feature_3229', 'feature_2435', 'feature_4193', 'feature_3059', 'feature_208', 'feature_2201', 'feature_3190', 'feature_1626', 'feature_1176', 'feature_4186', 'feature_1603']
+
+--------------------------------------------------
+VALUTAZIONE...
+--------------------------------------------------
+
+NMI: 0.4869 ± 0.0422
+ACC: 0.5620 ± 0.0652

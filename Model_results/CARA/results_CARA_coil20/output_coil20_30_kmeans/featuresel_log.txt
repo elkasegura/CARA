@@ -1,0 +1,48 @@
+================================================================================
+CARA - FEATURE SELECTION SYSTEM USING AUTOENCODER
+================================================================================
+
+Esecuzione iniziata: 2026-03-11 09:28:52
+
+
+================================================================================
+CONFIGURAZIONE
+================================================================================
+Dataset: COIL20
+Input folder: Raw_Datasets/
+Label column: label_coil20
+Scaler: standard
+
+Clustering strategy: KMeans
+Clustering parameters: searching
+
+Autoencoder: LinearAE
+Learning rate: 0.001
+Epochs: 100
+
+Output folder: output_experiments_29_datasets_all_distances/coil20/output_coil20_30_kmeans
+================================================================================
+
+
+--------------------------------------------------
+CARICAMENTO DATI
+--------------------------------------------------
+
+
+--------------------------------------------------
+CLUSTERING...
+--------------------------------------------------
+
+
+--------------------------------------------------
+FILTERING...
+--------------------------------------------------
+
+Selected features: ['feature_233', 'feature_112', 'feature_992', 'feature_378', 'feature_301', 'feature_111', 'feature_996', 'feature_759', 'feature_330', 'feature_305', 'feature_1013', 'feature_384', 'feature_100', 'feature_696', 'feature_192', 'feature_178', 'feature_618', 'feature_895', 'feature_110', 'feature_139', 'feature_318', 'feature_349', 'feature_252', 'feature_27', 'feature_46', 'feature_678', 'feature_249', 'feature_610', 'feature_905', 'feature_2']
+
+--------------------------------------------------
+VALUTAZIONE...
+--------------------------------------------------
+
+NMI: 0.6803 ± 0.0123
+ACC: 0.5600 ± 0.0233

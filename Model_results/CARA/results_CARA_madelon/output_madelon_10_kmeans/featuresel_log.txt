@@ -1,0 +1,48 @@
+================================================================================
+CARA - FEATURE SELECTION SYSTEM USING AUTOENCODER
+================================================================================
+
+Esecuzione iniziata: 2026-03-12 18:43:28
+
+
+================================================================================
+CONFIGURAZIONE
+================================================================================
+Dataset: madelon
+Input folder: Raw_Datasets/
+Label column: label_madelon
+Scaler: standard
+
+Clustering strategy: KMeans
+Clustering parameters: searching
+
+Autoencoder: LinearAE
+Learning rate: 0.001
+Epochs: 100
+
+Output folder: output_experiments_29_datasets_all_distances/madelon/output_madelon_10_kmeans
+================================================================================
+
+
+--------------------------------------------------
+CARICAMENTO DATI
+--------------------------------------------------
+
+
+--------------------------------------------------
+CLUSTERING...
+--------------------------------------------------
+
+
+--------------------------------------------------
+FILTERING...
+--------------------------------------------------
+
+Selected features: ['feature_361', 'feature_301', 'feature_229', 'feature_476', 'feature_416', 'feature_345', 'feature_139', 'feature_368', 'feature_126', 'feature_260']
+
+--------------------------------------------------
+VALUTAZIONE...
+--------------------------------------------------
+
+NMI: 0.0014 ± 0.0001
+ACC: 0.5220 ± 0.0010

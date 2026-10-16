@@ -1,0 +1,48 @@
+================================================================================
+CARA - FEATURE SELECTION SYSTEM USING AUTOENCODER
+================================================================================
+
+Esecuzione iniziata: 2026-03-11 09:29:13
+
+
+================================================================================
+CONFIGURAZIONE
+================================================================================
+Dataset: COIL20
+Input folder: Raw_Datasets/
+Label column: label_coil20
+Scaler: standard
+
+Clustering strategy: Hierarchical
+Clustering parameters: searching
+
+Autoencoder: LinearAE
+Learning rate: 0.001
+Epochs: 100
+
+Output folder: output_experiments_29_datasets_all_distances/coil20/output_coil20_40_hierarchical
+================================================================================
+
+
+--------------------------------------------------
+CARICAMENTO DATI
+--------------------------------------------------
+
+
+--------------------------------------------------
+CLUSTERING...
+--------------------------------------------------
+
+
+--------------------------------------------------
+FILTERING...
+--------------------------------------------------
+
+Selected features: ['feature_511', 'feature_587', 'feature_712', 'feature_326', 'feature_577', 'feature_688', 'feature_335', 'feature_337', 'feature_346', 'feature_633', 'feature_94', 'feature_827', 'feature_254', 'feature_926', 'feature_2', 'feature_1022', 'feature_928', 'feature_851', 'feature_754', 'feature_1016', 'feature_215', 'feature_20', 'feature_26', 'feature_218', 'feature_311', 'feature_46', 'feature_968', 'feature_906', 'feature_270', 'feature_813', 'feature_137', 'feature_264', 'feature_233', 'feature_193', 'feature_705', 'feature_133', 'feature_866', 'feature_996', 'feature_708', 'feature_746']
+
+--------------------------------------------------
+VALUTAZIONE...
+--------------------------------------------------
+
+NMI: 0.7199 ± 0.0138
+ACC: 0.6182 ± 0.0227

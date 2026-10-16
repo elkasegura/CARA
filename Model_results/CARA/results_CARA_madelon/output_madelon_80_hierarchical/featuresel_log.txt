@@ -1,0 +1,48 @@
+================================================================================
+CARA - FEATURE SELECTION SYSTEM USING AUTOENCODER
+================================================================================
+
+Esecuzione iniziata: 2026-03-12 18:48:11
+
+
+================================================================================
+CONFIGURAZIONE
+================================================================================
+Dataset: madelon
+Input folder: Raw_Datasets/
+Label column: label_madelon
+Scaler: standard
+
+Clustering strategy: Hierarchical
+Clustering parameters: searching
+
+Autoencoder: LinearAE
+Learning rate: 0.001
+Epochs: 100
+
+Output folder: output_experiments_29_datasets_all_distances/madelon/output_madelon_80_hierarchical
+================================================================================
+
+
+--------------------------------------------------
+CARICAMENTO DATI
+--------------------------------------------------
+
+
+--------------------------------------------------
+CLUSTERING...
+--------------------------------------------------
+
+
+--------------------------------------------------
+FILTERING...
+--------------------------------------------------
+
+Selected features: ['feature_277', 'feature_254', 'feature_470', 'feature_161', 'feature_483', 'feature_485', 'feature_346', 'feature_146', 'feature_5', 'feature_335', 'feature_283', 'feature_316', 'feature_392', 'feature_264', 'feature_474', 'feature_163', 'feature_205', 'feature_366', 'feature_30', 'feature_61', 'feature_122', 'feature_43', 'feature_191', 'feature_324', 'feature_111', 'feature_72', 'feature_465', 'feature_88', 'feature_14', 'feature_424', 'feature_148', 'feature_17', 'feature_402', 'feature_106', 'feature_275', 'feature_167', 'feature_307', 'feature_384', 'feature_151', 'feature_189', 'feature_231', 'feature_119', 'feature_258', 'feature_383', 'feature_435', 'feature_302', 'feature_94', 'feature_380', 'feature_96', 'feature_385', 'feature_328', 'feature_310', 'feature_237', 'feature_387', 'feature_168', 'feature_325', 'feature_350', 'feature_317', 'feature_68', 'feature_138', 'feature_416', 'feature_253', 'feature_342', 'feature_293', 'feature_91', 'feature_233', 'feature_200', 'feature_0', 'feature_196', 'feature_323', 'feature_401', 'feature_47', 'feature_128', 'feature_375', 'feature_477', 'feature_276', 'feature_261', 'feature_251', 'feature_368', 'feature_446']
+
+--------------------------------------------------
+VALUTAZIONE...
+--------------------------------------------------
+
+NMI: 0.0000 ± 0.0000
+ACC: 0.5039 ± 0.0014

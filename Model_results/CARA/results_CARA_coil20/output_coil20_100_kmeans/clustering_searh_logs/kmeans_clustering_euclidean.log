@@ -1,0 +1,6 @@
+2026-03-11 09:26:42 - INFO - Inizio log: output_experiments_29_datasets_all_distances/coil20/output_coil20_100_kmeans/clustering_searh_logs/kmeans_clustering_euclidean.log
+2026-03-11 09:26:42 - INFO - Numero di features: 1024, Numero di pazienti: 1024
+2026-03-11 09:26:42 - INFO - Numero minimo di features per cluster: 10, Numero massimo di features per cluster: 10
+2026-03-11 09:26:42 - INFO - Numero minimo di cluster: 100, Numero massimo di cluster: 100
+2026-03-11 09:26:58 - INFO - Num clusters: 100, Silhouette Score: 0.3252, Davies-Bouldin Score: 0.9776, Avg features per cluster: 17.74, Single feature clusters %: 62.0
+2026-03-11 09:26:58 - INFO - Best result: {'num_clusters': 100, 'silhouette_score': 0.3251666188925986, 'davies_bouldin_score': 0.9776257440294931, 'avg_features_per_cluster': 17.736842105263158, 'single_feature_clusters_percentage': 62.0}

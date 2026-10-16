@@ -1,0 +1,48 @@
+================================================================================
+CARA - FEATURE SELECTION SYSTEM USING AUTOENCODER
+================================================================================
+
+Esecuzione iniziata: 2026-03-13 03:51:26
+
+
+================================================================================
+CONFIGURAZIONE
+================================================================================
+Dataset: PCMAC
+Input folder: Raw_Datasets/
+Label column: label_pcmac
+Scaler: standard
+
+Clustering strategy: Hierarchical
+Clustering parameters: searching
+
+Autoencoder: LinearAE
+Learning rate: 0.001
+Epochs: 100
+
+Output folder: output_experiments_29_datasets_all_distances/pcmac/output_pcmac_50_hierarchical
+================================================================================
+
+
+--------------------------------------------------
+CARICAMENTO DATI
+--------------------------------------------------
+
+
+--------------------------------------------------
+CLUSTERING...
+--------------------------------------------------
+
+
+--------------------------------------------------
+FILTERING...
+--------------------------------------------------
+
+Selected features: ['feature_714', 'feature_860', 'feature_42', 'feature_2158', 'feature_1275', 'feature_2062', 'feature_1107', 'feature_3025', 'feature_1515', 'feature_41', 'feature_734', 'feature_239', 'feature_1304', 'feature_10', 'feature_2299', 'feature_2592', 'feature_709', 'feature_1797', 'feature_2777', 'feature_2799', 'feature_2320', 'feature_2108', 'feature_424', 'feature_1056', 'feature_18', 'feature_283', 'feature_856', 'feature_114', 'feature_1215', 'feature_775', 'feature_181', 'feature_1134', 'feature_2656', 'feature_801', 'feature_125', 'feature_108', 'feature_1405', 'feature_3033', 'feature_1953', 'feature_2506', 'feature_1854', 'feature_3024', 'feature_2601', 'feature_1045', 'feature_2455', 'feature_656', 'feature_1210', 'feature_3232', 'feature_260', 'feature_278']
+
+--------------------------------------------------
+VALUTAZIONE...
+--------------------------------------------------
+
+NMI: 0.0002 ± 0.0000
+ACC: 0.5080 ± 0.0000

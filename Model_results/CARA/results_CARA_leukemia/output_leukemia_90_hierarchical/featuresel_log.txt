@@ -1,0 +1,48 @@
+================================================================================
+CARA - FEATURE SELECTION SYSTEM USING AUTOENCODER
+================================================================================
+
+Esecuzione iniziata: 2026-03-12 16:49:39
+
+
+================================================================================
+CONFIGURAZIONE
+================================================================================
+Dataset: Leukemia
+Input folder: Raw_Datasets/
+Label column: label_leukemia
+Scaler: standard
+
+Clustering strategy: Hierarchical
+Clustering parameters: searching
+
+Autoencoder: LinearAE
+Learning rate: 0.001
+Epochs: 100
+
+Output folder: output_experiments_29_datasets_all_distances/leukemia/output_leukemia_90_hierarchical
+================================================================================
+
+
+--------------------------------------------------
+CARICAMENTO DATI
+--------------------------------------------------
+
+
+--------------------------------------------------
+CLUSTERING...
+--------------------------------------------------
+
+
+--------------------------------------------------
+FILTERING...
+--------------------------------------------------
+
+Selected features: ['feature_4774', 'feature_5449', 'feature_6098', 'feature_4109', 'feature_3303', 'feature_2288', 'feature_6795', 'feature_5111', 'feature_1021', 'feature_5185', 'feature_633', 'feature_586', 'feature_6765', 'feature_5081', 'feature_5701', 'feature_2643', 'feature_4177', 'feature_2974', 'feature_5792', 'feature_6953', 'feature_3139', 'feature_2013', 'feature_748', 'feature_2554', 'feature_2715', 'feature_1832', 'feature_1326', 'feature_5677', 'feature_2441', 'feature_6077', 'feature_5485', 'feature_926', 'feature_700', 'feature_3650', 'feature_2081', 'feature_5910', 'feature_2045', 'feature_1915', 'feature_5620', 'feature_655', 'feature_6990', 'feature_7013', 'feature_6188', 'feature_4012', 'feature_1136', 'feature_6636', 'feature_4074', 'feature_707', 'feature_930', 'feature_4035', 'feature_961', 'feature_3644', 'feature_4071', 'feature_2781', 'feature_5892', 'feature_3972', 'feature_1706', 'feature_5505', 'feature_4422', 'feature_5011', 'feature_5736', 'feature_5382', 'feature_4190', 'feature_423', 'feature_2835', 'feature_2865', 'feature_5272', 'feature_2139', 'feature_5027', 'feature_829', 'feature_2525', 'feature_7033', 'feature_404', 'feature_3087', 'feature_6050', 'feature_1640', 'feature_1868', 'feature_4954', 'feature_169', 'feature_6563', 'feature_428', 'feature_84', 'feature_2859', 'feature_2544', 'feature_3816', 'feature_933', 'feature_4068', 'feature_4731', 'feature_511', 'feature_4488']
+
+--------------------------------------------------
+VALUTAZIONE...
+--------------------------------------------------
+
+NMI: 0.0027 ± 0.0043
+ACC: 0.5285 ± 0.0071

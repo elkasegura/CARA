@@ -1,0 +1,48 @@
+================================================================================
+CARA - FEATURE SELECTION SYSTEM USING AUTOENCODER
+================================================================================
+
+Esecuzione iniziata: 2026-03-13 07:16:09
+
+
+================================================================================
+CONFIGURAZIONE
+================================================================================
+Dataset: pixraw10P
+Input folder: Raw_Datasets/
+Label column: label_pixraw10p
+Scaler: standard
+
+Clustering strategy: KMeans
+Clustering parameters: searching
+
+Autoencoder: LinearAE
+Learning rate: 0.001
+Epochs: 100
+
+Output folder: output_experiments_29_datasets_all_distances/pixraw10p/output_pixraw10p_80_kmeans
+================================================================================
+
+
+--------------------------------------------------
+CARICAMENTO DATI
+--------------------------------------------------
+
+
+--------------------------------------------------
+CLUSTERING...
+--------------------------------------------------
+
+
+--------------------------------------------------
+FILTERING...
+--------------------------------------------------
+
+Selected features: ['feature_1823', 'feature_197', 'feature_9222', 'feature_6298', 'feature_35', 'feature_4424', 'feature_6889', 'feature_8293', 'feature_4084', 'feature_3613', 'feature_7663', 'feature_9395', 'feature_5857', 'feature_6915', 'feature_6464', 'feature_1854', 'feature_3093', 'feature_3037', 'feature_7982', 'feature_1452', 'feature_9525', 'feature_4989', 'feature_7044', 'feature_1425', 'feature_2134', 'feature_3262', 'feature_4236', 'feature_3676', 'feature_4350', 'feature_5152', 'feature_837', 'feature_6367', 'feature_7298', 'feature_9198', 'feature_6647', 'feature_4848', 'feature_5359', 'feature_8455', 'feature_1398', 'feature_2967', 'feature_6154', 'feature_7361', 'feature_914', 'feature_7551', 'feature_1991', 'feature_1946', 'feature_6731', 'feature_2928', 'feature_4420', 'feature_6696', 'feature_3943', 'feature_6487', 'feature_4897', 'feature_4100', 'feature_3396', 'feature_7174', 'feature_3258', 'feature_8929', 'feature_7546', 'feature_6362', 'feature_6877', 'feature_6959', 'feature_5091', 'feature_2750', 'feature_3697', 'feature_4832', 'feature_5797', 'feature_7736', 'feature_1898', 'feature_3406', 'feature_6764', 'feature_7586', 'feature_8683', 'feature_2479', 'feature_4040', 'feature_3732', 'feature_2526', 'feature_2888', 'feature_6657', 'feature_8121']
+
+--------------------------------------------------
+VALUTAZIONE...
+--------------------------------------------------
+
+NMI: 0.8653 ± 0.0257
+ACC: 0.7535 ± 0.0611

@@ -1,0 +1,48 @@
+================================================================================
+CARA - FEATURE SELECTION SYSTEM USING AUTOENCODER
+================================================================================
+
+Esecuzione iniziata: 2026-03-13 05:14:57
+
+
+================================================================================
+CONFIGURAZIONE
+================================================================================
+Dataset: pixraw10P
+Input folder: Raw_Datasets/
+Label column: label_pixraw10p
+Scaler: standard
+
+Clustering strategy: KMeans
+Clustering parameters: searching
+
+Autoencoder: LinearAE
+Learning rate: 0.001
+Epochs: 100
+
+Output folder: output_experiments_29_datasets_all_distances/pixraw10p/output_pixraw10p_30_kmeans
+================================================================================
+
+
+--------------------------------------------------
+CARICAMENTO DATI
+--------------------------------------------------
+
+
+--------------------------------------------------
+CLUSTERING...
+--------------------------------------------------
+
+
+--------------------------------------------------
+FILTERING...
+--------------------------------------------------
+
+Selected features: ['feature_2228', 'feature_3780', 'feature_9015', 'feature_3821', 'feature_511', 'feature_3840', 'feature_6915', 'feature_5397', 'feature_4201', 'feature_6646', 'feature_8397', 'feature_6660', 'feature_7226', 'feature_4329', 'feature_1946', 'feature_2311', 'feature_7570', 'feature_5151', 'feature_3395', 'feature_6891', 'feature_7103', 'feature_5856', 'feature_4833', 'feature_3516', 'feature_9727', 'feature_6464', 'feature_2390', 'feature_4847', 'feature_4857', 'feature_8896']
+
+--------------------------------------------------
+VALUTAZIONE...
+--------------------------------------------------
+
+NMI: 0.8500 ± 0.0093
+ACC: 0.7540 ± 0.0094

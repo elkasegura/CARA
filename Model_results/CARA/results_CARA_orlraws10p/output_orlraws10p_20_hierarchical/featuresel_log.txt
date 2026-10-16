@@ -1,0 +1,48 @@
+================================================================================
+CARA - FEATURE SELECTION SYSTEM USING AUTOENCODER
+================================================================================
+
+Esecuzione iniziata: 2026-03-12 23:59:39
+
+
+================================================================================
+CONFIGURAZIONE
+================================================================================
+Dataset: orlraws10P
+Input folder: Raw_Datasets/
+Label column: label_orlraws10p
+Scaler: standard
+
+Clustering strategy: Hierarchical
+Clustering parameters: searching
+
+Autoencoder: LinearAE
+Learning rate: 0.001
+Epochs: 100
+
+Output folder: output_experiments_29_datasets_all_distances/orlraws10p/output_orlraws10p_20_hierarchical
+================================================================================
+
+
+--------------------------------------------------
+CARICAMENTO DATI
+--------------------------------------------------
+
+
+--------------------------------------------------
+CLUSTERING...
+--------------------------------------------------
+
+
+--------------------------------------------------
+FILTERING...
+--------------------------------------------------
+
+Selected features: ['feature_4975', 'feature_7925', 'feature_4306', 'feature_2092', 'feature_5407', 'feature_5298', 'feature_10089', 'feature_5485', 'feature_2722', 'feature_2273', 'feature_5625', 'feature_2078', 'feature_9615', 'feature_554', 'feature_432', 'feature_907', 'feature_477', 'feature_2712', 'feature_8207', 'feature_2907']
+
+--------------------------------------------------
+VALUTAZIONE...
+--------------------------------------------------
+
+NMI: 0.7252 ± 0.0180
+ACC: 0.6675 ± 0.0311

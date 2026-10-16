@@ -1,0 +1,48 @@
+================================================================================
+CARA - FEATURE SELECTION SYSTEM USING AUTOENCODER
+================================================================================
+
+Esecuzione iniziata: 2026-03-13 00:59:15
+
+
+================================================================================
+CONFIGURAZIONE
+================================================================================
+Dataset: orlraws10P
+Input folder: Raw_Datasets/
+Label column: label_orlraws10p
+Scaler: standard
+
+Clustering strategy: Hierarchical
+Clustering parameters: searching
+
+Autoencoder: LinearAE
+Learning rate: 0.001
+Epochs: 100
+
+Output folder: output_experiments_29_datasets_all_distances/orlraws10p/output_orlraws10p_50_hierarchical
+================================================================================
+
+
+--------------------------------------------------
+CARICAMENTO DATI
+--------------------------------------------------
+
+
+--------------------------------------------------
+CLUSTERING...
+--------------------------------------------------
+
+
+--------------------------------------------------
+FILTERING...
+--------------------------------------------------
+
+Selected features: ['feature_4975', 'feature_7875', 'feature_7926', 'feature_4306', 'feature_2092', 'feature_4847', 'feature_2868', 'feature_6147', 'feature_6152', 'feature_5638', 'feature_6252', 'feature_4850', 'feature_4071', 'feature_455', 'feature_4412', 'feature_5821', 'feature_4366', 'feature_3742', 'feature_2389', 'feature_3459', 'feature_1539', 'feature_2161', 'feature_737', 'feature_951', 'feature_6514', 'feature_3088', 'feature_6180', 'feature_2192', 'feature_7227', 'feature_4310', 'feature_2347', 'feature_310', 'feature_9838', 'feature_7612', 'feature_9049', 'feature_554', 'feature_10073', 'feature_323', 'feature_1350', 'feature_2693', 'feature_9889', 'feature_710', 'feature_477', 'feature_3047', 'feature_5164', 'feature_9336', 'feature_8207', 'feature_3245', 'feature_8492', 'feature_6940']
+
+--------------------------------------------------
+VALUTAZIONE...
+--------------------------------------------------
+
+NMI: 0.8010 ± 0.0328
+ACC: 0.7470 ± 0.0577

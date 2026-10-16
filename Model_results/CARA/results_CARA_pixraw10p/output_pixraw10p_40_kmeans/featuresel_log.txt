@@ -1,0 +1,48 @@
+================================================================================
+CARA - FEATURE SELECTION SYSTEM USING AUTOENCODER
+================================================================================
+
+Esecuzione iniziata: 2026-03-13 05:32:21
+
+
+================================================================================
+CONFIGURAZIONE
+================================================================================
+Dataset: pixraw10P
+Input folder: Raw_Datasets/
+Label column: label_pixraw10p
+Scaler: standard
+
+Clustering strategy: KMeans
+Clustering parameters: searching
+
+Autoencoder: LinearAE
+Learning rate: 0.001
+Epochs: 100
+
+Output folder: output_experiments_29_datasets_all_distances/pixraw10p/output_pixraw10p_40_kmeans
+================================================================================
+
+
+--------------------------------------------------
+CARICAMENTO DATI
+--------------------------------------------------
+
+
+--------------------------------------------------
+CLUSTERING...
+--------------------------------------------------
+
+
+--------------------------------------------------
+FILTERING...
+--------------------------------------------------
+
+Selected features: ['feature_1922', 'feature_197', 'feature_9015', 'feature_5797', 'feature_204', 'feature_4225', 'feature_6788', 'feature_8793', 'feature_4084', 'feature_3516', 'feature_7226', 'feature_4800', 'feature_5856', 'feature_6915', 'feature_3244', 'feature_2287', 'feature_3395', 'feature_2935', 'feature_9728', 'feature_1960', 'feature_7866', 'feature_4990', 'feature_5232', 'feature_1235', 'feature_2228', 'feature_3468', 'feature_4135', 'feature_2756', 'feature_6154', 'feature_5155', 'feature_837', 'feature_6468', 'feature_3865', 'feature_9097', 'feature_4345', 'feature_4848', 'feature_6459', 'feature_7753', 'feature_2895', 'feature_2047']
+
+--------------------------------------------------
+VALUTAZIONE...
+--------------------------------------------------
+
+NMI: 0.8654 ± 0.0172
+ACC: 0.7560 ± 0.0315

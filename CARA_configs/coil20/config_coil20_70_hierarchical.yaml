@@ -1,0 +1,27 @@
+clustering:
+  cluster_on_correlation: true
+  number_of_clusters: 70
+  parameters: searching
+  range_n_clusters: 0
+  strategy: Hierarchical
+dataset:
+  input_folder: data/
+  label_column: label_coil20
+  name: COIL20
+  scaler: standard
+filters:
+  autoencoder_parameters:
+    AE_name: LinearAE
+    epochs: 100
+    lr: 0.001
+    n_layers:
+    - 1
+    - 2
+    - 3
+    - 4
+  filter_type: AE
+  medoid_parameters:
+    distance_metric: euclidean
+output:
+  logs_folder: Model_results/CARA/results_CARA_coil20/output_coil20_70_hierarchical
+  output_folder: Model_results/CARA/results_CARA_coil20/output_coil20_70_hierarchical

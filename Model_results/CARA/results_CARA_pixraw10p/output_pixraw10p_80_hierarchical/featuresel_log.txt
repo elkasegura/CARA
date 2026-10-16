@@ -1,0 +1,48 @@
+================================================================================
+CARA - FEATURE SELECTION SYSTEM USING AUTOENCODER
+================================================================================
+
+Esecuzione iniziata: 2026-03-13 07:11:23
+
+
+================================================================================
+CONFIGURAZIONE
+================================================================================
+Dataset: pixraw10P
+Input folder: Raw_Datasets/
+Label column: label_pixraw10p
+Scaler: standard
+
+Clustering strategy: Hierarchical
+Clustering parameters: searching
+
+Autoencoder: LinearAE
+Learning rate: 0.001
+Epochs: 100
+
+Output folder: output_experiments_29_datasets_all_distances/pixraw10p/output_pixraw10p_80_hierarchical
+================================================================================
+
+
+--------------------------------------------------
+CARICAMENTO DATI
+--------------------------------------------------
+
+
+--------------------------------------------------
+CLUSTERING...
+--------------------------------------------------
+
+
+--------------------------------------------------
+FILTERING...
+--------------------------------------------------
+
+Selected features: ['feature_3998', 'feature_5756', 'feature_3558', 'feature_4857', 'feature_9730', 'feature_5151', 'feature_6254', 'feature_5651', 'feature_2887', 'feature_1889', 'feature_2895', 'feature_795', 'feature_1425', 'feature_1757', 'feature_1627', 'feature_3450', 'feature_9547', 'feature_429', 'feature_6896', 'feature_6367', 'feature_5290', 'feature_4035', 'feature_7067', 'feature_5636', 'feature_7061', 'feature_6740', 'feature_4832', 'feature_3397', 'feature_3196', 'feature_8929', 'feature_7001', 'feature_3696', 'feature_7386', 'feature_9217', 'feature_3778', 'feature_3406', 'feature_3205', 'feature_5100', 'feature_7745', 'feature_7551', 'feature_8159', 'feature_7664', 'feature_7433', 'feature_7226', 'feature_6775', 'feature_6877', 'feature_7217', 'feature_8222', 'feature_2928', 'feature_4617', 'feature_3731', 'feature_4522', 'feature_3617', 'feature_5711', 'feature_3043', 'feature_7049', 'feature_2526', 'feature_2228', 'feature_6745', 'feature_3839', 'feature_6865', 'feature_5749', 'feature_4147', 'feature_4848', 'feature_6961', 'feature_6660', 'feature_5460', 'feature_3244', 'feature_3665', 'feature_5263', 'feature_1748', 'feature_2046', 'feature_2755', 'feature_8896', 'feature_6788', 'feature_8397', 'feature_6332', 'feature_1727', 'feature_7455', 'feature_7255']
+
+--------------------------------------------------
+VALUTAZIONE...
+--------------------------------------------------
+
+NMI: 0.8621 ± 0.0171
+ACC: 0.7905 ± 0.0490

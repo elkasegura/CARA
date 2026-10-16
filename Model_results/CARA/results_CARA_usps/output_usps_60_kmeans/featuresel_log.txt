@@ -1,0 +1,48 @@
+================================================================================
+CARA - FEATURE SELECTION SYSTEM USING AUTOENCODER
+================================================================================
+
+Esecuzione iniziata: 2026-03-14 11:52:11
+
+
+================================================================================
+CONFIGURAZIONE
+================================================================================
+Dataset: USPS
+Input folder: Raw_Datasets/
+Label column: label_usps
+Scaler: standard
+
+Clustering strategy: KMeans
+Clustering parameters: searching
+
+Autoencoder: LinearAE
+Learning rate: 0.001
+Epochs: 100
+
+Output folder: output_experiments_29_datasets_all_distances/usps/output_usps_60_kmeans
+================================================================================
+
+
+--------------------------------------------------
+CARICAMENTO DATI
+--------------------------------------------------
+
+
+--------------------------------------------------
+CLUSTERING...
+--------------------------------------------------
+
+
+--------------------------------------------------
+FILTERING...
+--------------------------------------------------
+
+Selected features: ['feature_57', 'feature_1', 'feature_156', 'feature_107', 'feature_133', 'feature_82', 'feature_72', 'feature_191', 'feature_249', 'feature_5', 'feature_171', 'feature_185', 'feature_105', 'feature_151', 'feature_11', 'feature_84', 'feature_181', 'feature_90', 'feature_245', 'feature_173', 'feature_239', 'feature_132', 'feature_215', 'feature_8', 'feature_237', 'feature_96', 'feature_60', 'feature_46', 'feature_242', 'feature_126', 'feature_26', 'feature_88', 'feature_4', 'feature_202', 'feature_180', 'feature_70', 'feature_134', 'feature_224', 'feature_231', 'feature_214', 'feature_58', 'feature_182', 'feature_10', 'feature_219', 'feature_194', 'feature_120', 'feature_184', 'feature_35', 'feature_64', 'feature_137', 'feature_52', 'feature_130', 'feature_18', 'feature_166', 'feature_55', 'feature_213', 'feature_39', 'feature_38', 'feature_199', 'feature_109']
+
+--------------------------------------------------
+VALUTAZIONE...
+--------------------------------------------------
+
+NMI: 0.6100 ± 0.0016
+ACC: 0.6747 ± 0.0070

@@ -1,0 +1,48 @@
+================================================================================
+CARA - FEATURE SELECTION SYSTEM USING AUTOENCODER
+================================================================================
+
+Esecuzione iniziata: 2026-03-14 11:07:03
+
+
+================================================================================
+CONFIGURAZIONE
+================================================================================
+Dataset: USPS
+Input folder: Raw_Datasets/
+Label column: label_usps
+Scaler: standard
+
+Clustering strategy: KMeans
+Clustering parameters: searching
+
+Autoencoder: LinearAE
+Learning rate: 0.001
+Epochs: 100
+
+Output folder: output_experiments_29_datasets_all_distances/usps/output_usps_100_kmeans
+================================================================================
+
+
+--------------------------------------------------
+CARICAMENTO DATI
+--------------------------------------------------
+
+
+--------------------------------------------------
+CLUSTERING...
+--------------------------------------------------
+
+
+--------------------------------------------------
+FILTERING...
+--------------------------------------------------
+
+Selected features: ['feature_57', 'feature_1', 'feature_172', 'feature_107', 'feature_133', 'feature_50', 'feature_72', 'feature_191', 'feature_233', 'feature_22', 'feature_155', 'feature_185', 'feature_105', 'feature_167', 'feature_12', 'feature_69', 'feature_181', 'feature_106', 'feature_228', 'feature_162', 'feature_239', 'feature_132', 'feature_215', 'feature_8', 'feature_237', 'feature_111', 'feature_60', 'feature_62', 'feature_225', 'feature_129', 'feature_25', 'feature_88', 'feature_18', 'feature_217', 'feature_180', 'feature_70', 'feature_118', 'feature_224', 'feature_231', 'feature_214', 'feature_41', 'feature_198', 'feature_10', 'feature_204', 'feature_194', 'feature_120', 'feature_184', 'feature_36', 'feature_64', 'feature_137', 'feature_52', 'feature_130', 'feature_17', 'feature_150', 'feature_55', 'feature_212', 'feature_54', 'feature_38', 'feature_199', 'feature_108', 'feature_101', 'feature_186', 'feature_80', 'feature_59', 'feature_73', 'feature_115', 'feature_14', 'feature_247', 'feature_138', 'feature_58', 'feature_251', 'feature_200', 'feature_253', 'feature_40', 'feature_149', 'feature_160', 'feature_140', 'feature_23', 'feature_163', 'feature_71', 'feature_169', 'feature_234', 'feature_189', 'feature_82', 'feature_21', 'feature_252', 'feature_26', 'feature_207', 'feature_93', 'feature_230', 'feature_174', 'feature_79', 'feature_34', 'feature_127', 'feature_202', 'feature_226', 'feature_11', 'feature_74', 'feature_192', 'feature_141']
+
+--------------------------------------------------
+VALUTAZIONE...
+--------------------------------------------------
+
+NMI: 0.5903 ± 0.0034
+ACC: 0.6544 ± 0.0181

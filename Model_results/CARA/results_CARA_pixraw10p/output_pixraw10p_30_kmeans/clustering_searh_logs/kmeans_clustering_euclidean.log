@@ -1,0 +1,6 @@
+2026-03-13 05:19:33 - INFO - Inizio log: output_experiments_29_datasets_all_distances/pixraw10p/output_pixraw10p_30_kmeans/clustering_searh_logs/kmeans_clustering_euclidean.log
+2026-03-13 05:19:33 - INFO - Numero di features: 10000, Numero di pazienti: 10000
+2026-03-13 05:19:33 - INFO - Numero minimo di features per cluster: 333, Numero massimo di features per cluster: 333
+2026-03-13 05:19:33 - INFO - Numero minimo di cluster: 30, Numero massimo di cluster: 30
+2026-03-13 05:23:31 - INFO - Num clusters: 30, Silhouette Score: 0.6085, Davies-Bouldin Score: 0.6791, Avg features per cluster: 715.44, Single feature clusters %: 70.0
+2026-03-13 05:23:31 - INFO - Best result: {'num_clusters': 30, 'silhouette_score': 0.6085015740381227, 'davies_bouldin_score': 0.6790534791632691, 'avg_features_per_cluster': 715.4444444444445, 'single_feature_clusters_percentage': 70.0}

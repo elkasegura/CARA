@@ -1,0 +1,48 @@
+================================================================================
+CARA - FEATURE SELECTION SYSTEM USING AUTOENCODER
+================================================================================
+
+Esecuzione iniziata: 2026-03-13 01:08:57
+
+
+================================================================================
+CONFIGURAZIONE
+================================================================================
+Dataset: orlraws10P
+Input folder: Raw_Datasets/
+Label column: label_orlraws10p
+Scaler: standard
+
+Clustering strategy: KMeans
+Clustering parameters: searching
+
+Autoencoder: LinearAE
+Learning rate: 0.001
+Epochs: 100
+
+Output folder: output_experiments_29_datasets_all_distances/orlraws10p/output_orlraws10p_50_kmeans
+================================================================================
+
+
+--------------------------------------------------
+CARICAMENTO DATI
+--------------------------------------------------
+
+
+--------------------------------------------------
+CLUSTERING...
+--------------------------------------------------
+
+
+--------------------------------------------------
+FILTERING...
+--------------------------------------------------
+
+Selected features: ['feature_1835', 'feature_5486', 'feature_8467', 'feature_9973', 'feature_9048', 'feature_3390', 'feature_10073', 'feature_7693', 'feature_4936', 'feature_431', 'feature_7040', 'feature_4734', 'feature_4304', 'feature_9336', 'feature_2192', 'feature_907', 'feature_5969', 'feature_4071', 'feature_3357', 'feature_1860', 'feature_1788', 'feature_5736', 'feature_4308', 'feature_1427', 'feature_8824', 'feature_2864', 'feature_6715', 'feature_3640', 'feature_4515', 'feature_2423', 'feature_1088', 'feature_7501', 'feature_743', 'feature_10061', 'feature_1552', 'feature_5533', 'feature_1074', 'feature_9209', 'feature_6250', 'feature_8244', 'feature_6233', 'feature_8451', 'feature_3460', 'feature_331', 'feature_7926', 'feature_5752', 'feature_965', 'feature_594', 'feature_2982', 'feature_1956']
+
+--------------------------------------------------
+VALUTAZIONE...
+--------------------------------------------------
+
+NMI: 0.7667 ± 0.0256
+ACC: 0.7050 ± 0.0343

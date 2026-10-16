@@ -1,0 +1,48 @@
+================================================================================
+CARA - FEATURE SELECTION SYSTEM USING AUTOENCODER
+================================================================================
+
+Esecuzione iniziata: 2026-03-13 03:45:08
+
+
+================================================================================
+CONFIGURAZIONE
+================================================================================
+Dataset: PCMAC
+Input folder: Raw_Datasets/
+Label column: label_pcmac
+Scaler: standard
+
+Clustering strategy: Hierarchical
+Clustering parameters: searching
+
+Autoencoder: LinearAE
+Learning rate: 0.001
+Epochs: 100
+
+Output folder: output_experiments_29_datasets_all_distances/pcmac/output_pcmac_20_hierarchical
+================================================================================
+
+
+--------------------------------------------------
+CARICAMENTO DATI
+--------------------------------------------------
+
+
+--------------------------------------------------
+CLUSTERING...
+--------------------------------------------------
+
+
+--------------------------------------------------
+FILTERING...
+--------------------------------------------------
+
+Selected features: ['feature_1421', 'feature_1376', 'feature_199', 'feature_222', 'feature_410', 'feature_163', 'feature_1780', 'feature_41', 'feature_3169', 'feature_1056', 'feature_10', 'feature_1271', 'feature_1012', 'feature_2608', 'feature_903', 'feature_405', 'feature_2939', 'feature_1139', 'feature_1405', 'feature_239']
+
+--------------------------------------------------
+VALUTAZIONE...
+--------------------------------------------------
+
+NMI: 0.0045 ± 0.0028
+ACC: 0.5032 ± 0.0018

@@ -1,0 +1,48 @@
+================================================================================
+CARA - FEATURE SELECTION SYSTEM USING AUTOENCODER
+================================================================================
+
+Esecuzione iniziata: 2026-03-10 21:52:44
+
+
+================================================================================
+CONFIGURAZIONE
+================================================================================
+Dataset: BASEHOCK
+Input folder: Raw_Datasets/
+Label column: label_basehock
+Scaler: standard
+
+Clustering strategy: Hierarchical
+Clustering parameters: searching
+
+Autoencoder: LinearAE
+Learning rate: 0.001
+Epochs: 100
+
+Output folder: output_experiments_29_datasets_all_distances/basehock/output_basehock_50_hierarchical
+================================================================================
+
+
+--------------------------------------------------
+CARICAMENTO DATI
+--------------------------------------------------
+
+
+--------------------------------------------------
+CLUSTERING...
+--------------------------------------------------
+
+
+--------------------------------------------------
+FILTERING...
+--------------------------------------------------
+
+Selected features: ['feature_4153', 'feature_4094', 'feature_3503', 'feature_1250', 'feature_4508', 'feature_4154', 'feature_4415', 'feature_36', 'feature_437', 'feature_179', 'feature_2601', 'feature_1692', 'feature_2439', 'feature_2044', 'feature_3349', 'feature_147', 'feature_29', 'feature_2253', 'feature_4822', 'feature_1864', 'feature_4132', 'feature_4', 'feature_1198', 'feature_2198', 'feature_1232', 'feature_682', 'feature_2761', 'feature_1263', 'feature_2202', 'feature_3930', 'feature_836', 'feature_33', 'feature_926', 'feature_1071', 'feature_3693', 'feature_3859', 'feature_314', 'feature_2717', 'feature_3847', 'feature_2329', 'feature_4739', 'feature_2670', 'feature_37', 'feature_796', 'feature_157', 'feature_2655', 'feature_1281', 'feature_390', 'feature_4604', 'feature_2764']
+
+--------------------------------------------------
+VALUTAZIONE...
+--------------------------------------------------
+
+NMI: 0.0031 ± 0.0004
+ACC: 0.5007 ± 0.0011

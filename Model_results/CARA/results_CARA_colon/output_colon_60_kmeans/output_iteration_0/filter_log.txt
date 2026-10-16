@@ -1,0 +1,1399 @@
+=== FILTER LOG - ITERAZIONE 0 ===
+Data: 2026-03-11 09:46:17
+
+Iniziando filtraggio con autoencoder per 60 cluster
+
+==================================================
+CLUSTER 0
+==================================================
+Numero di feature (campioni diventano features): 62
+
+Epoca: 1/100, Loss: 0.669358, Errore MAE: 0.669358
+Epoca: 11/100, Loss: 0.644359, Errore MAE: 0.644359
+Epoca: 21/100, Loss: 0.624613, Errore MAE: 0.624613
+Epoca: 31/100, Loss: 0.606282, Errore MAE: 0.606282
+Epoca: 41/100, Loss: 0.587676, Errore MAE: 0.587676
+Epoca: 51/100, Loss: 0.569354, Errore MAE: 0.569354
+Epoca: 61/100, Loss: 0.552239, Errore MAE: 0.552239
+Epoca: 71/100, Loss: 0.537037, Errore MAE: 0.537037
+Epoca: 81/100, Loss: 0.524893, Errore MAE: 0.524893
+Epoca: 91/100, Loss: 0.515723, Errore MAE: 0.515723
+Epoca: 100/100, Loss: 0.509061, Errore MAE: 0.509061
+Feature selezionata per cluster 0: feature_699
+Errore di ricostruzione: 0.220322
+==================================================
+
+Filtered Clusters 0/59
+
+==================================================
+CLUSTER 1
+==================================================
+Numero di feature (campioni diventano features): 62
+
+Epoca: 1/100, Loss: 0.709861, Errore MAE: 0.709861
+Epoca: 11/100, Loss: 0.684559, Errore MAE: 0.684559
+Epoca: 21/100, Loss: 0.666989, Errore MAE: 0.666989
+Epoca: 31/100, Loss: 0.651965, Errore MAE: 0.651965
+Epoca: 41/100, Loss: 0.637322, Errore MAE: 0.637322
+Epoca: 51/100, Loss: 0.621825, Errore MAE: 0.621825
+Epoca: 61/100, Loss: 0.605353, Errore MAE: 0.605353
+Epoca: 71/100, Loss: 0.589836, Errore MAE: 0.589836
+Epoca: 81/100, Loss: 0.576083, Errore MAE: 0.576083
+Epoca: 91/100, Loss: 0.564978, Errore MAE: 0.564978
+Epoca: 100/100, Loss: 0.556590, Errore MAE: 0.556590
+Feature selezionata per cluster 1: feature_290
+Errore di ricostruzione: 0.295569
+==================================================
+
+Filtered Clusters 1/59
+
+==================================================
+CLUSTER 2
+==================================================
+Numero di feature (campioni diventano features): 62
+
+Epoca: 1/100, Loss: 0.698971, Errore MAE: 0.698971
+Epoca: 11/100, Loss: 0.668055, Errore MAE: 0.668055
+Epoca: 21/100, Loss: 0.653247, Errore MAE: 0.653247
+Epoca: 31/100, Loss: 0.643838, Errore MAE: 0.643838
+Epoca: 41/100, Loss: 0.631118, Errore MAE: 0.631118
+Epoca: 51/100, Loss: 0.614713, Errore MAE: 0.614713
+Epoca: 61/100, Loss: 0.595583, Errore MAE: 0.595583
+Epoca: 71/100, Loss: 0.575913, Errore MAE: 0.575913
+Epoca: 81/100, Loss: 0.556780, Errore MAE: 0.556780
+Epoca: 91/100, Loss: 0.539971, Errore MAE: 0.539971
+Epoca: 100/100, Loss: 0.526024, Errore MAE: 0.526024
+Feature selezionata per cluster 2: feature_1808
+Errore di ricostruzione: 0.337450
+==================================================
+
+Filtered Clusters 2/59
+
+==================================================
+CLUSTER 3
+==================================================
+Numero di feature (campioni diventano features): 62
+
+Epoca: 1/100, Loss: 0.770930, Errore MAE: 0.770930
+Epoca: 11/100, Loss: 0.744613, Errore MAE: 0.744613
+Epoca: 21/100, Loss: 0.721633, Errore MAE: 0.721633
+Epoca: 31/100, Loss: 0.699953, Errore MAE: 0.699953
+Epoca: 41/100, Loss: 0.680629, Errore MAE: 0.680629
+Epoca: 51/100, Loss: 0.663503, Errore MAE: 0.663503
+Epoca: 61/100, Loss: 0.649128, Errore MAE: 0.649128
+Epoca: 71/100, Loss: 0.636991, Errore MAE: 0.636991
+Epoca: 81/100, Loss: 0.626791, Errore MAE: 0.626791
+Epoca: 91/100, Loss: 0.618130, Errore MAE: 0.618130
+Epoca: 100/100, Loss: 0.610610, Errore MAE: 0.610610
+Feature selezionata per cluster 3: feature_366
+Errore di ricostruzione: 0.338163
+==================================================
+
+Filtered Clusters 3/59
+
+==================================================
+CLUSTER 4
+==================================================
+Numero di feature (campioni diventano features): 62
+
+Epoca: 1/100, Loss: 0.668505, Errore MAE: 0.668505
+Epoca: 11/100, Loss: 0.644283, Errore MAE: 0.644283
+Epoca: 21/100, Loss: 0.625161, Errore MAE: 0.625161
+Epoca: 31/100, Loss: 0.605157, Errore MAE: 0.605157
+Epoca: 41/100, Loss: 0.584084, Errore MAE: 0.584084
+Epoca: 51/100, Loss: 0.562116, Errore MAE: 0.562116
+Epoca: 61/100, Loss: 0.541058, Errore MAE: 0.541058
+Epoca: 71/100, Loss: 0.523135, Errore MAE: 0.523135
+Epoca: 81/100, Loss: 0.508556, Errore MAE: 0.508556
+Epoca: 91/100, Loss: 0.497890, Errore MAE: 0.497890
+Epoca: 100/100, Loss: 0.491420, Errore MAE: 0.491420
+Feature selezionata per cluster 4: feature_255
+Errore di ricostruzione: 0.154792
+==================================================
+
+Filtered Clusters 4/59
+
+==================================================
+CLUSTER 5
+==================================================
+Numero di feature (campioni diventano features): 62
+
+Epoca: 1/100, Loss: 0.714011, Errore MAE: 0.714011
+Epoca: 11/100, Loss: 0.686619, Errore MAE: 0.686619
+Epoca: 21/100, Loss: 0.667276, Errore MAE: 0.667276
+Epoca: 31/100, Loss: 0.651136, Errore MAE: 0.651136
+Epoca: 41/100, Loss: 0.635406, Errore MAE: 0.635406
+Epoca: 51/100, Loss: 0.619796, Errore MAE: 0.619796
+Epoca: 61/100, Loss: 0.605451, Errore MAE: 0.605451
+Epoca: 71/100, Loss: 0.593182, Errore MAE: 0.593182
+Epoca: 81/100, Loss: 0.582177, Errore MAE: 0.582177
+Epoca: 91/100, Loss: 0.572336, Errore MAE: 0.572336
+Epoca: 100/100, Loss: 0.564107, Errore MAE: 0.564107
+Feature selezionata per cluster 5: feature_1284
+Errore di ricostruzione: 0.228707
+==================================================
+
+Filtered Clusters 5/59
+
+==================================================
+CLUSTER 6
+==================================================
+Numero di feature (campioni diventano features): 62
+
+Epoca: 1/100, Loss: 0.645655, Errore MAE: 0.645655
+Epoca: 11/100, Loss: 0.613096, Errore MAE: 0.613096
+Epoca: 21/100, Loss: 0.589757, Errore MAE: 0.589757
+Epoca: 31/100, Loss: 0.568256, Errore MAE: 0.568256
+Epoca: 41/100, Loss: 0.548173, Errore MAE: 0.548173
+Epoca: 51/100, Loss: 0.529560, Errore MAE: 0.529560
+Epoca: 61/100, Loss: 0.513768, Errore MAE: 0.513768
+Epoca: 71/100, Loss: 0.500166, Errore MAE: 0.500166
+Epoca: 81/100, Loss: 0.487453, Errore MAE: 0.487453
+Epoca: 91/100, Loss: 0.477103, Errore MAE: 0.477103
+Epoca: 100/100, Loss: 0.470383, Errore MAE: 0.470383
+Feature selezionata per cluster 6: feature_1427
+Errore di ricostruzione: 0.200729
+==================================================
+
+Filtered Clusters 6/59
+
+==================================================
+CLUSTER 7
+==================================================
+Numero di feature (campioni diventano features): 62
+
+Epoca: 1/100, Loss: 0.754013, Errore MAE: 0.754013
+Epoca: 11/100, Loss: 0.726648, Errore MAE: 0.726648
+Epoca: 21/100, Loss: 0.706424, Errore MAE: 0.706424
+Epoca: 31/100, Loss: 0.685935, Errore MAE: 0.685935
+Epoca: 41/100, Loss: 0.665580, Errore MAE: 0.665580
+Epoca: 51/100, Loss: 0.645762, Errore MAE: 0.645762
+Epoca: 61/100, Loss: 0.628785, Errore MAE: 0.628785
+Epoca: 71/100, Loss: 0.613677, Errore MAE: 0.613677
+Epoca: 81/100, Loss: 0.600968, Errore MAE: 0.600968
+Epoca: 91/100, Loss: 0.590012, Errore MAE: 0.590012
+Epoca: 100/100, Loss: 0.581614, Errore MAE: 0.581614
+Feature selezionata per cluster 7: feature_218
+Errore di ricostruzione: 0.215760
+==================================================
+
+Filtered Clusters 7/59
+
+==================================================
+CLUSTER 8
+==================================================
+Numero di feature (campioni diventano features): 62
+
+Epoca: 1/100, Loss: 0.740837, Errore MAE: 0.740837
+Epoca: 11/100, Loss: 0.717775, Errore MAE: 0.717775
+Epoca: 21/100, Loss: 0.698376, Errore MAE: 0.698376
+Epoca: 31/100, Loss: 0.679407, Errore MAE: 0.679407
+Epoca: 41/100, Loss: 0.661663, Errore MAE: 0.661663
+Epoca: 51/100, Loss: 0.644986, Errore MAE: 0.644986
+Epoca: 61/100, Loss: 0.630130, Errore MAE: 0.630130
+Epoca: 71/100, Loss: 0.617760, Errore MAE: 0.617760
+Epoca: 81/100, Loss: 0.606730, Errore MAE: 0.606730
+Epoca: 91/100, Loss: 0.597026, Errore MAE: 0.597026
+Epoca: 100/100, Loss: 0.589276, Errore MAE: 0.589276
+Feature selezionata per cluster 8: feature_439
+Errore di ricostruzione: 0.327890
+==================================================
+
+Filtered Clusters 8/59
+
+==================================================
+CLUSTER 9
+==================================================
+Numero di feature (campioni diventano features): 62
+
+Epoca: 1/100, Loss: 0.820574, Errore MAE: 0.820574
+Epoca: 11/100, Loss: 0.793482, Errore MAE: 0.793482
+Epoca: 21/100, Loss: 0.775056, Errore MAE: 0.775056
+Epoca: 31/100, Loss: 0.754641, Errore MAE: 0.754641
+Epoca: 41/100, Loss: 0.733940, Errore MAE: 0.733940
+Epoca: 51/100, Loss: 0.714701, Errore MAE: 0.714701
+Epoca: 61/100, Loss: 0.698249, Errore MAE: 0.698249
+Epoca: 71/100, Loss: 0.682288, Errore MAE: 0.682288
+Epoca: 81/100, Loss: 0.667849, Errore MAE: 0.667849
+Epoca: 91/100, Loss: 0.654699, Errore MAE: 0.654699
+Epoca: 100/100, Loss: 0.642394, Errore MAE: 0.642394
+Feature selezionata per cluster 9: feature_1937
+Errore di ricostruzione: 0.309265
+==================================================
+
+Filtered Clusters 9/59
+
+==================================================
+CLUSTER 10
+==================================================
+Numero di feature (campioni diventano features): 62
+
+Epoca: 1/100, Loss: 0.497593, Errore MAE: 0.497593
+Epoca: 11/100, Loss: 0.452167, Errore MAE: 0.452167
+Epoca: 21/100, Loss: 0.433497, Errore MAE: 0.433497
+Epoca: 31/100, Loss: 0.424805, Errore MAE: 0.424805
+Epoca: 41/100, Loss: 0.421125, Errore MAE: 0.421125
+Epoca: 51/100, Loss: 0.418269, Errore MAE: 0.418269
+Epoca: 61/100, Loss: 0.415564, Errore MAE: 0.415564
+Epoca: 71/100, Loss: 0.411240, Errore MAE: 0.411240
+Epoca: 81/100, Loss: 0.400759, Errore MAE: 0.400759
+Epoca: 91/100, Loss: 0.375562, Errore MAE: 0.375562
+Epoca: 100/100, Loss: 0.352203, Errore MAE: 0.352203
+Feature selezionata per cluster 10: feature_949
+Errore di ricostruzione: 0.251564
+==================================================
+
+Filtered Clusters 10/59
+
+==================================================
+CLUSTER 11
+==================================================
+Numero di feature (campioni diventano features): 62
+
+Epoca: 1/100, Loss: 0.734748, Errore MAE: 0.734748
+Epoca: 11/100, Loss: 0.713601, Errore MAE: 0.713601
+Epoca: 21/100, Loss: 0.696842, Errore MAE: 0.696842
+Epoca: 31/100, Loss: 0.680213, Errore MAE: 0.680213
+Epoca: 41/100, Loss: 0.663362, Errore MAE: 0.663362
+Epoca: 51/100, Loss: 0.646982, Errore MAE: 0.646982
+Epoca: 61/100, Loss: 0.632627, Errore MAE: 0.632627
+Epoca: 71/100, Loss: 0.619505, Errore MAE: 0.619505
+Epoca: 81/100, Loss: 0.607575, Errore MAE: 0.607575
+Epoca: 91/100, Loss: 0.597595, Errore MAE: 0.597595
+Epoca: 100/100, Loss: 0.591162, Errore MAE: 0.591162
+Feature selezionata per cluster 11: feature_904
+Errore di ricostruzione: 0.291131
+==================================================
+
+Filtered Clusters 11/59
+
+==================================================
+CLUSTER 12
+==================================================
+Numero di feature (campioni diventano features): 62
+
+Epoca: 1/100, Loss: 0.672683, Errore MAE: 0.672683
+Epoca: 11/100, Loss: 0.647396, Errore MAE: 0.647396
+Epoca: 21/100, Loss: 0.631590, Errore MAE: 0.631590
+Epoca: 31/100, Loss: 0.618453, Errore MAE: 0.618453
+Epoca: 41/100, Loss: 0.604784, Errore MAE: 0.604784
+Epoca: 51/100, Loss: 0.589050, Errore MAE: 0.589050
+Epoca: 61/100, Loss: 0.572019, Errore MAE: 0.572019
+Epoca: 71/100, Loss: 0.557053, Errore MAE: 0.557053
+Epoca: 81/100, Loss: 0.543655, Errore MAE: 0.543655
+Epoca: 91/100, Loss: 0.531687, Errore MAE: 0.531687
+Epoca: 100/100, Loss: 0.522119, Errore MAE: 0.522119
+Feature selezionata per cluster 12: feature_370
+Errore di ricostruzione: 0.311713
+==================================================
+
+Filtered Clusters 12/59
+
+==================================================
+CLUSTER 13
+==================================================
+Numero di feature (campioni diventano features): 62
+
+Epoca: 1/100, Loss: 0.716960, Errore MAE: 0.716960
+Epoca: 11/100, Loss: 0.688517, Errore MAE: 0.688517
+Epoca: 21/100, Loss: 0.668942, Errore MAE: 0.668942
+Epoca: 31/100, Loss: 0.651173, Errore MAE: 0.651173
+Epoca: 41/100, Loss: 0.632528, Errore MAE: 0.632528
+Epoca: 51/100, Loss: 0.613697, Errore MAE: 0.613697
+Epoca: 61/100, Loss: 0.597300, Errore MAE: 0.597300
+Epoca: 71/100, Loss: 0.581957, Errore MAE: 0.581957
+Epoca: 81/100, Loss: 0.569002, Errore MAE: 0.569002
+Epoca: 91/100, Loss: 0.557589, Errore MAE: 0.557589
+Epoca: 100/100, Loss: 0.549080, Errore MAE: 0.549080
+Feature selezionata per cluster 13: feature_1078
+Errore di ricostruzione: 0.295599
+==================================================
+
+Filtered Clusters 13/59
+
+==================================================
+CLUSTER 14
+==================================================
+Numero di feature (campioni diventano features): 62
+
+Epoca: 1/100, Loss: 0.712548, Errore MAE: 0.712548
+Epoca: 11/100, Loss: 0.679795, Errore MAE: 0.679795
+Epoca: 21/100, Loss: 0.665355, Errore MAE: 0.665355
+Epoca: 31/100, Loss: 0.655283, Errore MAE: 0.655283
+Epoca: 41/100, Loss: 0.644423, Errore MAE: 0.644423
+Epoca: 51/100, Loss: 0.631950, Errore MAE: 0.631950
+Epoca: 61/100, Loss: 0.617376, Errore MAE: 0.617376
+Epoca: 71/100, Loss: 0.603517, Errore MAE: 0.603517
+Epoca: 81/100, Loss: 0.590525, Errore MAE: 0.590525
+Epoca: 91/100, Loss: 0.578364, Errore MAE: 0.578364
+Epoca: 100/100, Loss: 0.567968, Errore MAE: 0.567968
+Feature selezionata per cluster 14: feature_237
+Errore di ricostruzione: 0.340667
+==================================================
+
+Filtered Clusters 14/59
+
+==================================================
+CLUSTER 15
+==================================================
+Numero di feature (campioni diventano features): 62
+
+Epoca: 1/100, Loss: 0.791758, Errore MAE: 0.791758
+Epoca: 11/100, Loss: 0.760928, Errore MAE: 0.760928
+Epoca: 21/100, Loss: 0.741056, Errore MAE: 0.741056
+Epoca: 31/100, Loss: 0.722260, Errore MAE: 0.722260
+Epoca: 41/100, Loss: 0.702361, Errore MAE: 0.702361
+Epoca: 51/100, Loss: 0.681927, Errore MAE: 0.681927
+Epoca: 61/100, Loss: 0.662604, Errore MAE: 0.662604
+Epoca: 71/100, Loss: 0.644150, Errore MAE: 0.644150
+Epoca: 81/100, Loss: 0.625799, Errore MAE: 0.625799
+Epoca: 91/100, Loss: 0.609175, Errore MAE: 0.609175
+Epoca: 100/100, Loss: 0.594760, Errore MAE: 0.594760
+Feature selezionata per cluster 15: feature_1493
+Errore di ricostruzione: 0.324172
+==================================================
+
+Filtered Clusters 15/59
+
+==================================================
+CLUSTER 16
+==================================================
+Numero di feature (campioni diventano features): 62
+
+Epoca: 1/100, Loss: 0.795112, Errore MAE: 0.795112
+Epoca: 11/100, Loss: 0.769838, Errore MAE: 0.769838
+Epoca: 21/100, Loss: 0.751964, Errore MAE: 0.751964
+Epoca: 31/100, Loss: 0.733782, Errore MAE: 0.733782
+Epoca: 41/100, Loss: 0.713341, Errore MAE: 0.713341
+Epoca: 51/100, Loss: 0.693084, Errore MAE: 0.693084
+Epoca: 61/100, Loss: 0.675355, Errore MAE: 0.675355
+Epoca: 71/100, Loss: 0.659631, Errore MAE: 0.659631
+Epoca: 81/100, Loss: 0.646276, Errore MAE: 0.646276
+Epoca: 91/100, Loss: 0.634182, Errore MAE: 0.634182
+Epoca: 100/100, Loss: 0.625175, Errore MAE: 0.625175
+Feature selezionata per cluster 16: feature_375
+Errore di ricostruzione: 0.330592
+==================================================
+
+Filtered Clusters 16/59
+
+==================================================
+CLUSTER 17
+==================================================
+Numero di feature (campioni diventano features): 62
+
+Epoca: 1/100, Loss: 0.677117, Errore MAE: 0.677117
+Epoca: 11/100, Loss: 0.647775, Errore MAE: 0.647775
+Epoca: 21/100, Loss: 0.627020, Errore MAE: 0.627020
+Epoca: 31/100, Loss: 0.610088, Errore MAE: 0.610088
+Epoca: 41/100, Loss: 0.594831, Errore MAE: 0.594831
+Epoca: 51/100, Loss: 0.579903, Errore MAE: 0.579903
+Epoca: 61/100, Loss: 0.565668, Errore MAE: 0.565668
+Epoca: 71/100, Loss: 0.551056, Errore MAE: 0.551056
+Epoca: 81/100, Loss: 0.539183, Errore MAE: 0.539183
+Epoca: 91/100, Loss: 0.528247, Errore MAE: 0.528247
+Epoca: 100/100, Loss: 0.520504, Errore MAE: 0.520504
+Feature selezionata per cluster 17: feature_252
+Errore di ricostruzione: 0.226488
+==================================================
+
+Filtered Clusters 17/59
+
+==================================================
+CLUSTER 18
+==================================================
+Numero di feature (campioni diventano features): 62
+
+Epoca: 1/100, Loss: 0.743777, Errore MAE: 0.743777
+Epoca: 11/100, Loss: 0.714435, Errore MAE: 0.714435
+Epoca: 21/100, Loss: 0.692561, Errore MAE: 0.692561
+Epoca: 31/100, Loss: 0.672261, Errore MAE: 0.672261
+Epoca: 41/100, Loss: 0.651484, Errore MAE: 0.651484
+Epoca: 51/100, Loss: 0.629143, Errore MAE: 0.629143
+Epoca: 61/100, Loss: 0.606807, Errore MAE: 0.606807
+Epoca: 71/100, Loss: 0.586946, Errore MAE: 0.586946
+Epoca: 81/100, Loss: 0.570614, Errore MAE: 0.570614
+Epoca: 91/100, Loss: 0.557187, Errore MAE: 0.557187
+Epoca: 100/100, Loss: 0.547055, Errore MAE: 0.547055
+Feature selezionata per cluster 18: feature_269
+Errore di ricostruzione: 0.262321
+==================================================
+
+Filtered Clusters 18/59
+
+==================================================
+CLUSTER 19
+==================================================
+Numero di feature (campioni diventano features): 62
+
+Epoca: 1/100, Loss: 0.674005, Errore MAE: 0.674005
+Epoca: 11/100, Loss: 0.644537, Errore MAE: 0.644537
+Epoca: 21/100, Loss: 0.628494, Errore MAE: 0.628494
+Epoca: 31/100, Loss: 0.615506, Errore MAE: 0.615506
+Epoca: 41/100, Loss: 0.601692, Errore MAE: 0.601692
+Epoca: 51/100, Loss: 0.587658, Errore MAE: 0.587658
+Epoca: 61/100, Loss: 0.572832, Errore MAE: 0.572832
+Epoca: 71/100, Loss: 0.558405, Errore MAE: 0.558405
+Epoca: 81/100, Loss: 0.545284, Errore MAE: 0.545284
+Epoca: 91/100, Loss: 0.534484, Errore MAE: 0.534484
+Epoca: 100/100, Loss: 0.525359, Errore MAE: 0.525359
+Feature selezionata per cluster 19: feature_931
+Errore di ricostruzione: 0.282272
+==================================================
+
+Filtered Clusters 19/59
+
+==================================================
+CLUSTER 20
+==================================================
+Numero di feature (campioni diventano features): 62
+
+Epoca: 1/100, Loss: 0.747640, Errore MAE: 0.747640
+Epoca: 11/100, Loss: 0.725233, Errore MAE: 0.725233
+Epoca: 21/100, Loss: 0.708299, Errore MAE: 0.708299
+Epoca: 31/100, Loss: 0.691685, Errore MAE: 0.691685
+Epoca: 41/100, Loss: 0.674404, Errore MAE: 0.674404
+Epoca: 51/100, Loss: 0.658567, Errore MAE: 0.658567
+Epoca: 61/100, Loss: 0.642668, Errore MAE: 0.642668
+Epoca: 71/100, Loss: 0.628513, Errore MAE: 0.628513
+Epoca: 81/100, Loss: 0.615585, Errore MAE: 0.615585
+Epoca: 91/100, Loss: 0.604120, Errore MAE: 0.604120
+Epoca: 100/100, Loss: 0.595767, Errore MAE: 0.595767
+Feature selezionata per cluster 20: feature_1016
+Errore di ricostruzione: 0.311194
+==================================================
+
+Filtered Clusters 20/59
+
+==================================================
+CLUSTER 21
+==================================================
+Numero di feature (campioni diventano features): 62
+
+Epoca: 1/100, Loss: 0.724974, Errore MAE: 0.724974
+Epoca: 11/100, Loss: 0.694311, Errore MAE: 0.694311
+Epoca: 21/100, Loss: 0.672902, Errore MAE: 0.672902
+Epoca: 31/100, Loss: 0.654812, Errore MAE: 0.654812
+Epoca: 41/100, Loss: 0.633857, Errore MAE: 0.633857
+Epoca: 51/100, Loss: 0.611621, Errore MAE: 0.611621
+Epoca: 61/100, Loss: 0.588756, Errore MAE: 0.588756
+Epoca: 71/100, Loss: 0.565020, Errore MAE: 0.565020
+Epoca: 81/100, Loss: 0.543150, Errore MAE: 0.543150
+Epoca: 91/100, Loss: 0.521488, Errore MAE: 0.521488
+Epoca: 100/100, Loss: 0.500060, Errore MAE: 0.500060
+Feature selezionata per cluster 21: feature_52
+Errore di ricostruzione: 0.178935
+==================================================
+
+Filtered Clusters 21/59
+
+==================================================
+CLUSTER 22
+==================================================
+Numero di feature (campioni diventano features): 62
+
+Epoca: 1/100, Loss: 0.754963, Errore MAE: 0.754963
+Epoca: 11/100, Loss: 0.721777, Errore MAE: 0.721777
+Epoca: 21/100, Loss: 0.703514, Errore MAE: 0.703514
+Epoca: 31/100, Loss: 0.686910, Errore MAE: 0.686910
+Epoca: 41/100, Loss: 0.667564, Errore MAE: 0.667564
+Epoca: 51/100, Loss: 0.646633, Errore MAE: 0.646633
+Epoca: 61/100, Loss: 0.623212, Errore MAE: 0.623212
+Epoca: 71/100, Loss: 0.597432, Errore MAE: 0.597432
+Epoca: 81/100, Loss: 0.570975, Errore MAE: 0.570975
+Epoca: 91/100, Loss: 0.542557, Errore MAE: 0.542557
+Epoca: 100/100, Loss: 0.516942, Errore MAE: 0.516942
+Feature selezionata per cluster 22: feature_545
+Errore di ricostruzione: 0.400709
+==================================================
+
+Filtered Clusters 22/59
+
+==================================================
+CLUSTER 23
+==================================================
+Numero di feature (campioni diventano features): 62
+
+Epoca: 1/100, Loss: 0.781536, Errore MAE: 0.781536
+Epoca: 11/100, Loss: 0.757992, Errore MAE: 0.757992
+Epoca: 21/100, Loss: 0.738751, Errore MAE: 0.738751
+Epoca: 31/100, Loss: 0.719245, Errore MAE: 0.719245
+Epoca: 41/100, Loss: 0.699351, Errore MAE: 0.699351
+Epoca: 51/100, Loss: 0.679368, Errore MAE: 0.679368
+Epoca: 61/100, Loss: 0.660860, Errore MAE: 0.660860
+Epoca: 71/100, Loss: 0.645652, Errore MAE: 0.645652
+Epoca: 81/100, Loss: 0.632140, Errore MAE: 0.632140
+Epoca: 91/100, Loss: 0.620857, Errore MAE: 0.620857
+Epoca: 100/100, Loss: 0.612873, Errore MAE: 0.612873
+Feature selezionata per cluster 23: feature_811
+Errore di ricostruzione: 0.284254
+==================================================
+
+Filtered Clusters 23/59
+
+==================================================
+CLUSTER 24
+==================================================
+Numero di feature (campioni diventano features): 62
+
+Epoca: 1/100, Loss: 0.682054, Errore MAE: 0.682054
+Epoca: 11/100, Loss: 0.652842, Errore MAE: 0.652842
+Epoca: 21/100, Loss: 0.633440, Errore MAE: 0.633440
+Epoca: 31/100, Loss: 0.617320, Errore MAE: 0.617320
+Epoca: 41/100, Loss: 0.600599, Errore MAE: 0.600599
+Epoca: 51/100, Loss: 0.583318, Errore MAE: 0.583318
+Epoca: 61/100, Loss: 0.565351, Errore MAE: 0.565351
+Epoca: 71/100, Loss: 0.548538, Errore MAE: 0.548538
+Epoca: 81/100, Loss: 0.533054, Errore MAE: 0.533054
+Epoca: 91/100, Loss: 0.519753, Errore MAE: 0.519753
+Epoca: 100/100, Loss: 0.509613, Errore MAE: 0.509613
+Feature selezionata per cluster 24: feature_1697
+Errore di ricostruzione: 0.273068
+==================================================
+
+Filtered Clusters 24/59
+
+==================================================
+CLUSTER 25
+==================================================
+Numero di feature (campioni diventano features): 62
+
+Epoca: 1/100, Loss: 0.751187, Errore MAE: 0.751187
+Epoca: 11/100, Loss: 0.724488, Errore MAE: 0.724488
+Epoca: 21/100, Loss: 0.704249, Errore MAE: 0.704249
+Epoca: 31/100, Loss: 0.685271, Errore MAE: 0.685271
+Epoca: 41/100, Loss: 0.666691, Errore MAE: 0.666691
+Epoca: 51/100, Loss: 0.648747, Errore MAE: 0.648747
+Epoca: 61/100, Loss: 0.631752, Errore MAE: 0.631752
+Epoca: 71/100, Loss: 0.616661, Errore MAE: 0.616661
+Epoca: 81/100, Loss: 0.604285, Errore MAE: 0.604285
+Epoca: 91/100, Loss: 0.594116, Errore MAE: 0.594116
+Epoca: 100/100, Loss: 0.586428, Errore MAE: 0.586428
+Feature selezionata per cluster 25: feature_1633
+Errore di ricostruzione: 0.329518
+==================================================
+
+Filtered Clusters 25/59
+
+==================================================
+CLUSTER 26
+==================================================
+Numero di feature (campioni diventano features): 62
+
+Epoca: 1/100, Loss: 0.775973, Errore MAE: 0.775973
+Epoca: 11/100, Loss: 0.744478, Errore MAE: 0.744478
+Epoca: 21/100, Loss: 0.718165, Errore MAE: 0.718165
+Epoca: 31/100, Loss: 0.693821, Errore MAE: 0.693821
+Epoca: 41/100, Loss: 0.671040, Errore MAE: 0.671040
+Epoca: 51/100, Loss: 0.646017, Errore MAE: 0.646017
+Epoca: 61/100, Loss: 0.624706, Errore MAE: 0.624706
+Epoca: 71/100, Loss: 0.606473, Errore MAE: 0.606473
+Epoca: 81/100, Loss: 0.589029, Errore MAE: 0.589029
+Epoca: 91/100, Loss: 0.573695, Errore MAE: 0.573695
+Epoca: 100/100, Loss: 0.561436, Errore MAE: 0.561436
+Feature selezionata per cluster 26: feature_154
+Errore di ricostruzione: 0.362470
+==================================================
+
+Filtered Clusters 26/59
+
+==================================================
+CLUSTER 27
+==================================================
+Numero di feature (campioni diventano features): 62
+
+Epoca: 1/100, Loss: 0.699324, Errore MAE: 0.699324
+Epoca: 11/100, Loss: 0.675667, Errore MAE: 0.675667
+Epoca: 21/100, Loss: 0.660752, Errore MAE: 0.660752
+Epoca: 31/100, Loss: 0.646127, Errore MAE: 0.646127
+Epoca: 41/100, Loss: 0.630249, Errore MAE: 0.630249
+Epoca: 51/100, Loss: 0.614003, Errore MAE: 0.614003
+Epoca: 61/100, Loss: 0.597307, Errore MAE: 0.597307
+Epoca: 71/100, Loss: 0.580406, Errore MAE: 0.580406
+Epoca: 81/100, Loss: 0.565672, Errore MAE: 0.565672
+Epoca: 91/100, Loss: 0.554277, Errore MAE: 0.554277
+Epoca: 100/100, Loss: 0.544793, Errore MAE: 0.544793
+Feature selezionata per cluster 27: feature_1710
+Errore di ricostruzione: 0.276131
+==================================================
+
+Filtered Clusters 27/59
+
+==================================================
+CLUSTER 28
+==================================================
+Numero di feature (campioni diventano features): 62
+
+Epoca: 1/100, Loss: 0.729336, Errore MAE: 0.729336
+Epoca: 11/100, Loss: 0.702118, Errore MAE: 0.702118
+Epoca: 21/100, Loss: 0.680756, Errore MAE: 0.680756
+Epoca: 31/100, Loss: 0.662033, Errore MAE: 0.662033
+Epoca: 41/100, Loss: 0.644817, Errore MAE: 0.644817
+Epoca: 51/100, Loss: 0.627909, Errore MAE: 0.627909
+Epoca: 61/100, Loss: 0.612570, Errore MAE: 0.612570
+Epoca: 71/100, Loss: 0.597988, Errore MAE: 0.597988
+Epoca: 81/100, Loss: 0.584394, Errore MAE: 0.584394
+Epoca: 91/100, Loss: 0.571834, Errore MAE: 0.571834
+Epoca: 100/100, Loss: 0.562365, Errore MAE: 0.562365
+Feature selezionata per cluster 28: feature_456
+Errore di ricostruzione: 0.281189
+==================================================
+
+Filtered Clusters 28/59
+
+==================================================
+CLUSTER 29
+==================================================
+Numero di feature (campioni diventano features): 62
+
+Epoca: 1/100, Loss: 0.685769, Errore MAE: 0.685769
+Epoca: 11/100, Loss: 0.657264, Errore MAE: 0.657264
+Epoca: 21/100, Loss: 0.638592, Errore MAE: 0.638592
+Epoca: 31/100, Loss: 0.621798, Errore MAE: 0.621798
+Epoca: 41/100, Loss: 0.603663, Errore MAE: 0.603663
+Epoca: 51/100, Loss: 0.583196, Errore MAE: 0.583196
+Epoca: 61/100, Loss: 0.562355, Errore MAE: 0.562355
+Epoca: 71/100, Loss: 0.544942, Errore MAE: 0.544942
+Epoca: 81/100, Loss: 0.530592, Errore MAE: 0.530592
+Epoca: 91/100, Loss: 0.519736, Errore MAE: 0.519736
+Epoca: 100/100, Loss: 0.511336, Errore MAE: 0.511336
+Feature selezionata per cluster 29: feature_519
+Errore di ricostruzione: 0.255185
+==================================================
+
+Filtered Clusters 29/59
+
+==================================================
+CLUSTER 30
+==================================================
+Numero di feature (campioni diventano features): 62
+
+Epoca: 1/100, Loss: 0.708866, Errore MAE: 0.708866
+Epoca: 11/100, Loss: 0.681456, Errore MAE: 0.681456
+Epoca: 21/100, Loss: 0.660936, Errore MAE: 0.660936
+Epoca: 31/100, Loss: 0.641468, Errore MAE: 0.641468
+Epoca: 41/100, Loss: 0.622013, Errore MAE: 0.622013
+Epoca: 51/100, Loss: 0.604860, Errore MAE: 0.604860
+Epoca: 61/100, Loss: 0.590882, Errore MAE: 0.590882
+Epoca: 71/100, Loss: 0.578189, Errore MAE: 0.578189
+Epoca: 81/100, Loss: 0.568045, Errore MAE: 0.568045
+Epoca: 91/100, Loss: 0.559096, Errore MAE: 0.559096
+Epoca: 100/100, Loss: 0.553561, Errore MAE: 0.553561
+Feature selezionata per cluster 30: feature_511
+Errore di ricostruzione: 0.269067
+==================================================
+
+Filtered Clusters 30/59
+
+==================================================
+CLUSTER 31
+==================================================
+Numero di feature (campioni diventano features): 62
+
+Epoca: 1/100, Loss: 0.726886, Errore MAE: 0.726886
+Epoca: 11/100, Loss: 0.697118, Errore MAE: 0.697118
+Epoca: 21/100, Loss: 0.675897, Errore MAE: 0.675897
+Epoca: 31/100, Loss: 0.659083, Errore MAE: 0.659083
+Epoca: 41/100, Loss: 0.643950, Errore MAE: 0.643950
+Epoca: 51/100, Loss: 0.628029, Errore MAE: 0.628029
+Epoca: 61/100, Loss: 0.612916, Errore MAE: 0.612916
+Epoca: 71/100, Loss: 0.598426, Errore MAE: 0.598426
+Epoca: 81/100, Loss: 0.584499, Errore MAE: 0.584499
+Epoca: 91/100, Loss: 0.573068, Errore MAE: 0.573068
+Epoca: 100/100, Loss: 0.564400, Errore MAE: 0.564400
+Feature selezionata per cluster 31: feature_727
+Errore di ricostruzione: 0.226967
+==================================================
+
+Filtered Clusters 31/59
+
+==================================================
+CLUSTER 32
+==================================================
+Numero di feature (campioni diventano features): 62
+
+Epoca: 1/100, Loss: 0.828228, Errore MAE: 0.828228
+Epoca: 11/100, Loss: 0.796664, Errore MAE: 0.796664
+Epoca: 21/100, Loss: 0.778552, Errore MAE: 0.778552
+Epoca: 31/100, Loss: 0.762898, Errore MAE: 0.762898
+Epoca: 41/100, Loss: 0.745040, Errore MAE: 0.745040
+Epoca: 51/100, Loss: 0.726595, Errore MAE: 0.726595
+Epoca: 61/100, Loss: 0.707961, Errore MAE: 0.707961
+Epoca: 71/100, Loss: 0.689135, Errore MAE: 0.689135
+Epoca: 81/100, Loss: 0.671217, Errore MAE: 0.671217
+Epoca: 91/100, Loss: 0.652606, Errore MAE: 0.652606
+Epoca: 100/100, Loss: 0.636784, Errore MAE: 0.636784
+Feature selezionata per cluster 32: feature_475
+Errore di ricostruzione: 0.389089
+==================================================
+
+Filtered Clusters 32/59
+
+==================================================
+CLUSTER 33
+==================================================
+Numero di feature (campioni diventano features): 62
+
+Epoca: 1/100, Loss: 0.695759, Errore MAE: 0.695759
+Epoca: 11/100, Loss: 0.671335, Errore MAE: 0.671335
+Epoca: 21/100, Loss: 0.653596, Errore MAE: 0.653596
+Epoca: 31/100, Loss: 0.637579, Errore MAE: 0.637579
+Epoca: 41/100, Loss: 0.622492, Errore MAE: 0.622492
+Epoca: 51/100, Loss: 0.606912, Errore MAE: 0.606912
+Epoca: 61/100, Loss: 0.589509, Errore MAE: 0.589509
+Epoca: 71/100, Loss: 0.571066, Errore MAE: 0.571066
+Epoca: 81/100, Loss: 0.555507, Errore MAE: 0.555507
+Epoca: 91/100, Loss: 0.543411, Errore MAE: 0.543411
+Epoca: 100/100, Loss: 0.534024, Errore MAE: 0.534024
+Feature selezionata per cluster 33: feature_1031
+Errore di ricostruzione: 0.333450
+==================================================
+
+Filtered Clusters 33/59
+
+==================================================
+CLUSTER 34
+==================================================
+Numero di feature (campioni diventano features): 62
+
+Epoca: 1/100, Loss: 0.000000, Errore MAE: 0.000000
+Epoca: 11/100, Loss: 0.000000, Errore MAE: 0.000000
+Epoca: 21/100, Loss: 0.000000, Errore MAE: 0.000000
+Epoca: 31/100, Loss: 0.000000, Errore MAE: 0.000000
+Epoca: 41/100, Loss: 0.000000, Errore MAE: 0.000000
+Epoca: 51/100, Loss: 0.000000, Errore MAE: 0.000000
+Epoca: 61/100, Loss: 0.000000, Errore MAE: 0.000000
+Epoca: 71/100, Loss: 0.000000, Errore MAE: 0.000000
+Epoca: 81/100, Loss: 0.000000, Errore MAE: 0.000000
+Epoca: 91/100, Loss: 0.000000, Errore MAE: 0.000000
+Epoca: 100/100, Loss: 0.000000, Errore MAE: 0.000000
+Feature selezionata per cluster 34: feature_1894
+Errore di ricostruzione: 0.000000
+==================================================
+
+Filtered Clusters 34/59
+
+==================================================
+CLUSTER 35
+==================================================
+Numero di feature (campioni diventano features): 62
+
+Epoca: 1/100, Loss: 0.647067, Errore MAE: 0.647067
+Epoca: 11/100, Loss: 0.618268, Errore MAE: 0.618268
+Epoca: 21/100, Loss: 0.597321, Errore MAE: 0.597321
+Epoca: 31/100, Loss: 0.580635, Errore MAE: 0.580635
+Epoca: 41/100, Loss: 0.566421, Errore MAE: 0.566421
+Epoca: 51/100, Loss: 0.552359, Errore MAE: 0.552359
+Epoca: 61/100, Loss: 0.538307, Errore MAE: 0.538307
+Epoca: 71/100, Loss: 0.524494, Errore MAE: 0.524494
+Epoca: 81/100, Loss: 0.512332, Errore MAE: 0.512332
+Epoca: 91/100, Loss: 0.502169, Errore MAE: 0.502169
+Epoca: 100/100, Loss: 0.494172, Errore MAE: 0.494172
+Feature selezionata per cluster 35: feature_1169
+Errore di ricostruzione: 0.190210
+==================================================
+
+Filtered Clusters 35/59
+
+==================================================
+CLUSTER 36
+==================================================
+Numero di feature (campioni diventano features): 62
+
+Epoca: 1/100, Loss: 0.664063, Errore MAE: 0.664063
+Epoca: 11/100, Loss: 0.636165, Errore MAE: 0.636165
+Epoca: 21/100, Loss: 0.619344, Errore MAE: 0.619344
+Epoca: 31/100, Loss: 0.604284, Errore MAE: 0.604284
+Epoca: 41/100, Loss: 0.586003, Errore MAE: 0.586003
+Epoca: 51/100, Loss: 0.567165, Errore MAE: 0.567165
+Epoca: 61/100, Loss: 0.546788, Errore MAE: 0.546788
+Epoca: 71/100, Loss: 0.525517, Errore MAE: 0.525517
+Epoca: 81/100, Loss: 0.506067, Errore MAE: 0.506067
+Epoca: 91/100, Loss: 0.489304, Errore MAE: 0.489304
+Epoca: 100/100, Loss: 0.476720, Errore MAE: 0.476720
+Feature selezionata per cluster 36: feature_1380
+Errore di ricostruzione: 0.232275
+==================================================
+
+Filtered Clusters 36/59
+
+==================================================
+CLUSTER 37
+==================================================
+Numero di feature (campioni diventano features): 62
+
+Epoca: 1/100, Loss: 0.741413, Errore MAE: 0.741413
+Epoca: 11/100, Loss: 0.714459, Errore MAE: 0.714459
+Epoca: 21/100, Loss: 0.694578, Errore MAE: 0.694578
+Epoca: 31/100, Loss: 0.677150, Errore MAE: 0.677150
+Epoca: 41/100, Loss: 0.661356, Errore MAE: 0.661356
+Epoca: 51/100, Loss: 0.645779, Errore MAE: 0.645779
+Epoca: 61/100, Loss: 0.629717, Errore MAE: 0.629717
+Epoca: 71/100, Loss: 0.616802, Errore MAE: 0.616802
+Epoca: 81/100, Loss: 0.604871, Errore MAE: 0.604871
+Epoca: 91/100, Loss: 0.594225, Errore MAE: 0.594225
+Epoca: 100/100, Loss: 0.586260, Errore MAE: 0.586260
+Feature selezionata per cluster 37: feature_926
+Errore di ricostruzione: 0.308372
+==================================================
+
+Filtered Clusters 37/59
+
+==================================================
+CLUSTER 38
+==================================================
+Numero di feature (campioni diventano features): 62
+
+Epoca: 1/100, Loss: 0.717086, Errore MAE: 0.717086
+Epoca: 11/100, Loss: 0.691341, Errore MAE: 0.691341
+Epoca: 21/100, Loss: 0.672748, Errore MAE: 0.672748
+Epoca: 31/100, Loss: 0.657115, Errore MAE: 0.657115
+Epoca: 41/100, Loss: 0.642413, Errore MAE: 0.642413
+Epoca: 51/100, Loss: 0.627977, Errore MAE: 0.627977
+Epoca: 61/100, Loss: 0.613498, Errore MAE: 0.613498
+Epoca: 71/100, Loss: 0.599650, Errore MAE: 0.599650
+Epoca: 81/100, Loss: 0.587050, Errore MAE: 0.587050
+Epoca: 91/100, Loss: 0.576517, Errore MAE: 0.576517
+Epoca: 100/100, Loss: 0.568515, Errore MAE: 0.568515
+Feature selezionata per cluster 38: feature_618
+Errore di ricostruzione: 0.319270
+==================================================
+
+Filtered Clusters 38/59
+
+==================================================
+CLUSTER 39
+==================================================
+Numero di feature (campioni diventano features): 62
+
+Epoca: 1/100, Loss: 0.758807, Errore MAE: 0.758807
+Epoca: 11/100, Loss: 0.733186, Errore MAE: 0.733186
+Epoca: 21/100, Loss: 0.712044, Errore MAE: 0.712044
+Epoca: 31/100, Loss: 0.691934, Errore MAE: 0.691934
+Epoca: 41/100, Loss: 0.672233, Errore MAE: 0.672233
+Epoca: 51/100, Loss: 0.652186, Errore MAE: 0.652186
+Epoca: 61/100, Loss: 0.634449, Errore MAE: 0.634449
+Epoca: 71/100, Loss: 0.619538, Errore MAE: 0.619538
+Epoca: 81/100, Loss: 0.607426, Errore MAE: 0.607426
+Epoca: 91/100, Loss: 0.597986, Errore MAE: 0.597986
+Epoca: 100/100, Loss: 0.591401, Errore MAE: 0.591401
+Feature selezionata per cluster 39: feature_1000
+Errore di ricostruzione: 0.344713
+==================================================
+
+Filtered Clusters 39/59
+
+==================================================
+CLUSTER 40
+==================================================
+Numero di feature (campioni diventano features): 62
+
+Epoca: 1/100, Loss: 0.757982, Errore MAE: 0.757982
+Epoca: 11/100, Loss: 0.734308, Errore MAE: 0.734308
+Epoca: 21/100, Loss: 0.716810, Errore MAE: 0.716810
+Epoca: 31/100, Loss: 0.701259, Errore MAE: 0.701259
+Epoca: 41/100, Loss: 0.686324, Errore MAE: 0.686324
+Epoca: 51/100, Loss: 0.672848, Errore MAE: 0.672848
+Epoca: 61/100, Loss: 0.659658, Errore MAE: 0.659658
+Epoca: 71/100, Loss: 0.646258, Errore MAE: 0.646258
+Epoca: 81/100, Loss: 0.633987, Errore MAE: 0.633987
+Epoca: 91/100, Loss: 0.623130, Errore MAE: 0.623130
+Epoca: 100/100, Loss: 0.615474, Errore MAE: 0.615474
+Feature selezionata per cluster 40: feature_215
+Errore di ricostruzione: 0.354004
+==================================================
+
+Filtered Clusters 40/59
+
+==================================================
+CLUSTER 41
+==================================================
+Numero di feature (campioni diventano features): 62
+
+Epoca: 1/100, Loss: 0.661644, Errore MAE: 0.661644
+Epoca: 11/100, Loss: 0.639188, Errore MAE: 0.639188
+Epoca: 21/100, Loss: 0.623126, Errore MAE: 0.623126
+Epoca: 31/100, Loss: 0.607931, Errore MAE: 0.607931
+Epoca: 41/100, Loss: 0.592831, Errore MAE: 0.592831
+Epoca: 51/100, Loss: 0.577878, Errore MAE: 0.577878
+Epoca: 61/100, Loss: 0.564527, Errore MAE: 0.564527
+Epoca: 71/100, Loss: 0.552555, Errore MAE: 0.552555
+Epoca: 81/100, Loss: 0.541548, Errore MAE: 0.541548
+Epoca: 91/100, Loss: 0.531165, Errore MAE: 0.531165
+Epoca: 100/100, Loss: 0.522109, Errore MAE: 0.522109
+Feature selezionata per cluster 41: feature_433
+Errore di ricostruzione: 0.234497
+==================================================
+
+Filtered Clusters 41/59
+
+==================================================
+CLUSTER 42
+==================================================
+Numero di feature (campioni diventano features): 62
+
+Epoca: 1/100, Loss: 0.807915, Errore MAE: 0.807915
+Epoca: 11/100, Loss: 0.780734, Errore MAE: 0.780734
+Epoca: 21/100, Loss: 0.758834, Errore MAE: 0.758834
+Epoca: 31/100, Loss: 0.736552, Errore MAE: 0.736552
+Epoca: 41/100, Loss: 0.715105, Errore MAE: 0.715105
+Epoca: 51/100, Loss: 0.695414, Errore MAE: 0.695414
+Epoca: 61/100, Loss: 0.676177, Errore MAE: 0.676177
+Epoca: 71/100, Loss: 0.660736, Errore MAE: 0.660736
+Epoca: 81/100, Loss: 0.648461, Errore MAE: 0.648461
+Epoca: 91/100, Loss: 0.638475, Errore MAE: 0.638475
+Epoca: 100/100, Loss: 0.630821, Errore MAE: 0.630821
+Feature selezionata per cluster 42: feature_93
+Errore di ricostruzione: 0.339646
+==================================================
+
+Filtered Clusters 42/59
+
+==================================================
+CLUSTER 43
+==================================================
+Numero di feature (campioni diventano features): 62
+
+Epoca: 1/100, Loss: 0.687550, Errore MAE: 0.687550
+Epoca: 11/100, Loss: 0.657857, Errore MAE: 0.657857
+Epoca: 21/100, Loss: 0.637531, Errore MAE: 0.637531
+Epoca: 31/100, Loss: 0.621384, Errore MAE: 0.621384
+Epoca: 41/100, Loss: 0.605387, Errore MAE: 0.605387
+Epoca: 51/100, Loss: 0.588650, Errore MAE: 0.588650
+Epoca: 61/100, Loss: 0.572475, Errore MAE: 0.572475
+Epoca: 71/100, Loss: 0.558703, Errore MAE: 0.558703
+Epoca: 81/100, Loss: 0.547141, Errore MAE: 0.547141
+Epoca: 91/100, Loss: 0.538575, Errore MAE: 0.538575
+Epoca: 100/100, Loss: 0.531961, Errore MAE: 0.531961
+Feature selezionata per cluster 43: feature_1594
+Errore di ricostruzione: 0.275426
+==================================================
+
+Filtered Clusters 43/59
+
+==================================================
+CLUSTER 44
+==================================================
+Numero di feature (campioni diventano features): 62
+
+Epoca: 1/100, Loss: 0.710921, Errore MAE: 0.710921
+Epoca: 11/100, Loss: 0.683912, Errore MAE: 0.683912
+Epoca: 21/100, Loss: 0.664521, Errore MAE: 0.664521
+Epoca: 31/100, Loss: 0.649094, Errore MAE: 0.649094
+Epoca: 41/100, Loss: 0.634775, Errore MAE: 0.634775
+Epoca: 51/100, Loss: 0.620795, Errore MAE: 0.620795
+Epoca: 61/100, Loss: 0.607012, Errore MAE: 0.607012
+Epoca: 71/100, Loss: 0.593142, Errore MAE: 0.593142
+Epoca: 81/100, Loss: 0.580392, Errore MAE: 0.580392
+Epoca: 91/100, Loss: 0.568784, Errore MAE: 0.568784
+Epoca: 100/100, Loss: 0.559327, Errore MAE: 0.559327
+Feature selezionata per cluster 44: feature_989
+Errore di ricostruzione: 0.329008
+==================================================
+
+Filtered Clusters 44/59
+
+==================================================
+CLUSTER 45
+==================================================
+Numero di feature (campioni diventano features): 62
+
+Epoca: 1/100, Loss: 0.618014, Errore MAE: 0.618014
+Epoca: 11/100, Loss: 0.575647, Errore MAE: 0.575647
+Epoca: 21/100, Loss: 0.558108, Errore MAE: 0.558108
+Epoca: 31/100, Loss: 0.550362, Errore MAE: 0.550362
+Epoca: 41/100, Loss: 0.541143, Errore MAE: 0.541143
+Epoca: 51/100, Loss: 0.524088, Errore MAE: 0.524088
+Epoca: 61/100, Loss: 0.499551, Errore MAE: 0.499551
+Epoca: 71/100, Loss: 0.479366, Errore MAE: 0.479366
+Epoca: 81/100, Loss: 0.455432, Errore MAE: 0.455432
+Epoca: 91/100, Loss: 0.434309, Errore MAE: 0.434309
+Epoca: 100/100, Loss: 0.414770, Errore MAE: 0.414770
+Feature selezionata per cluster 45: feature_1101
+Errore di ricostruzione: 0.092569
+==================================================
+
+Filtered Clusters 45/59
+
+==================================================
+CLUSTER 46
+==================================================
+Numero di feature (campioni diventano features): 62
+
+Epoca: 1/100, Loss: 0.736748, Errore MAE: 0.736748
+Epoca: 11/100, Loss: 0.714132, Errore MAE: 0.714132
+Epoca: 21/100, Loss: 0.694292, Errore MAE: 0.694292
+Epoca: 31/100, Loss: 0.676042, Errore MAE: 0.676042
+Epoca: 41/100, Loss: 0.658827, Errore MAE: 0.658827
+Epoca: 51/100, Loss: 0.642369, Errore MAE: 0.642369
+Epoca: 61/100, Loss: 0.627132, Errore MAE: 0.627132
+Epoca: 71/100, Loss: 0.613950, Errore MAE: 0.613950
+Epoca: 81/100, Loss: 0.602310, Errore MAE: 0.602310
+Epoca: 91/100, Loss: 0.591264, Errore MAE: 0.591264
+Epoca: 100/100, Loss: 0.582346, Errore MAE: 0.582346
+Feature selezionata per cluster 46: feature_879
+Errore di ricostruzione: 0.188666
+==================================================
+
+Filtered Clusters 46/59
+
+==================================================
+CLUSTER 47
+==================================================
+Numero di feature (campioni diventano features): 62
+
+Epoca: 1/100, Loss: 0.712135, Errore MAE: 0.712135
+Epoca: 11/100, Loss: 0.682745, Errore MAE: 0.682745
+Epoca: 21/100, Loss: 0.663670, Errore MAE: 0.663670
+Epoca: 31/100, Loss: 0.648083, Errore MAE: 0.648083
+Epoca: 41/100, Loss: 0.632880, Errore MAE: 0.632880
+Epoca: 51/100, Loss: 0.617711, Errore MAE: 0.617711
+Epoca: 61/100, Loss: 0.602139, Errore MAE: 0.602139
+Epoca: 71/100, Loss: 0.587099, Errore MAE: 0.587099
+Epoca: 81/100, Loss: 0.574079, Errore MAE: 0.574079
+Epoca: 91/100, Loss: 0.562655, Errore MAE: 0.562655
+Epoca: 100/100, Loss: 0.554479, Errore MAE: 0.554479
+Feature selezionata per cluster 47: feature_784
+Errore di ricostruzione: 0.291913
+==================================================
+
+Filtered Clusters 47/59
+
+==================================================
+CLUSTER 48
+==================================================
+Numero di feature (campioni diventano features): 62
+
+Epoca: 1/100, Loss: 0.756801, Errore MAE: 0.756801
+Epoca: 11/100, Loss: 0.734749, Errore MAE: 0.734749
+Epoca: 21/100, Loss: 0.720109, Errore MAE: 0.720109
+Epoca: 31/100, Loss: 0.706605, Errore MAE: 0.706605
+Epoca: 41/100, Loss: 0.690603, Errore MAE: 0.690603
+Epoca: 51/100, Loss: 0.673416, Errore MAE: 0.673416
+Epoca: 61/100, Loss: 0.655888, Errore MAE: 0.655888
+Epoca: 71/100, Loss: 0.639674, Errore MAE: 0.639674
+Epoca: 81/100, Loss: 0.626628, Errore MAE: 0.626628
+Epoca: 91/100, Loss: 0.616748, Errore MAE: 0.616748
+Epoca: 100/100, Loss: 0.608697, Errore MAE: 0.608697
+Feature selezionata per cluster 48: feature_184
+Errore di ricostruzione: 0.391517
+==================================================
+
+Filtered Clusters 48/59
+
+==================================================
+CLUSTER 49
+==================================================
+Numero di feature (campioni diventano features): 62
+
+Epoca: 1/100, Loss: 0.722791, Errore MAE: 0.722791
+Epoca: 11/100, Loss: 0.701514, Errore MAE: 0.701514
+Epoca: 21/100, Loss: 0.685101, Errore MAE: 0.685101
+Epoca: 31/100, Loss: 0.670611, Errore MAE: 0.670611
+Epoca: 41/100, Loss: 0.655988, Errore MAE: 0.655988
+Epoca: 51/100, Loss: 0.641092, Errore MAE: 0.641092
+Epoca: 61/100, Loss: 0.627345, Errore MAE: 0.627345
+Epoca: 71/100, Loss: 0.615122, Errore MAE: 0.615122
+Epoca: 81/100, Loss: 0.604840, Errore MAE: 0.604840
+Epoca: 91/100, Loss: 0.596395, Errore MAE: 0.596395
+Epoca: 100/100, Loss: 0.588967, Errore MAE: 0.588967
+Feature selezionata per cluster 49: feature_815
+Errore di ricostruzione: 0.283027
+==================================================
+
+Filtered Clusters 49/59
+
+==================================================
+CLUSTER 50
+==================================================
+Numero di feature (campioni diventano features): 62
+
+Epoca: 1/100, Loss: 0.729085, Errore MAE: 0.729085
+Epoca: 11/100, Loss: 0.699304, Errore MAE: 0.699304
+Epoca: 21/100, Loss: 0.672686, Errore MAE: 0.672686
+Epoca: 31/100, Loss: 0.644934, Errore MAE: 0.644934
+Epoca: 41/100, Loss: 0.619591, Errore MAE: 0.619591
+Epoca: 51/100, Loss: 0.597979, Errore MAE: 0.597979
+Epoca: 61/100, Loss: 0.577589, Errore MAE: 0.577589
+Epoca: 71/100, Loss: 0.556939, Errore MAE: 0.556939
+Epoca: 81/100, Loss: 0.537958, Errore MAE: 0.537958
+Epoca: 91/100, Loss: 0.519944, Errore MAE: 0.519944
+Epoca: 100/100, Loss: 0.506619, Errore MAE: 0.506619
+Feature selezionata per cluster 50: feature_266
+Errore di ricostruzione: 0.223351
+==================================================
+
+Filtered Clusters 50/59
+
+==================================================
+CLUSTER 51
+==================================================
+Numero di feature (campioni diventano features): 62
+
+Epoca: 1/100, Loss: 0.703598, Errore MAE: 0.703598
+Epoca: 11/100, Loss: 0.676008, Errore MAE: 0.676008
+Epoca: 21/100, Loss: 0.657560, Errore MAE: 0.657560
+Epoca: 31/100, Loss: 0.641307, Errore MAE: 0.641307
+Epoca: 41/100, Loss: 0.624604, Errore MAE: 0.624604
+Epoca: 51/100, Loss: 0.609450, Errore MAE: 0.609450
+Epoca: 61/100, Loss: 0.594935, Errore MAE: 0.594935
+Epoca: 71/100, Loss: 0.580918, Errore MAE: 0.580918
+Epoca: 81/100, Loss: 0.567295, Errore MAE: 0.567295
+Epoca: 91/100, Loss: 0.555298, Errore MAE: 0.555298
+Epoca: 100/100, Loss: 0.546467, Errore MAE: 0.546467
+Feature selezionata per cluster 51: feature_1286
+Errore di ricostruzione: 0.295916
+==================================================
+
+Filtered Clusters 51/59
+
+==================================================
+CLUSTER 52
+==================================================
+Numero di feature (campioni diventano features): 62
+
+Epoca: 1/100, Loss: 0.795747, Errore MAE: 0.795747
+Epoca: 11/100, Loss: 0.770421, Errore MAE: 0.770421
+Epoca: 21/100, Loss: 0.744810, Errore MAE: 0.744810
+Epoca: 31/100, Loss: 0.722992, Errore MAE: 0.722992
+Epoca: 41/100, Loss: 0.703874, Errore MAE: 0.703874
+Epoca: 51/100, Loss: 0.684506, Errore MAE: 0.684506
+Epoca: 61/100, Loss: 0.668459, Errore MAE: 0.668459
+Epoca: 71/100, Loss: 0.653624, Errore MAE: 0.653624
+Epoca: 81/100, Loss: 0.638560, Errore MAE: 0.638560
+Epoca: 91/100, Loss: 0.624451, Errore MAE: 0.624451
+Epoca: 100/100, Loss: 0.613448, Errore MAE: 0.613448
+Feature selezionata per cluster 52: feature_363
+Errore di ricostruzione: 0.392436
+==================================================
+
+Filtered Clusters 52/59
+
+==================================================
+CLUSTER 53
+==================================================
+Numero di feature (campioni diventano features): 62
+
+Epoca: 1/100, Loss: 0.772763, Errore MAE: 0.772763
+Epoca: 11/100, Loss: 0.743630, Errore MAE: 0.743630
+Epoca: 21/100, Loss: 0.723825, Errore MAE: 0.723825
+Epoca: 31/100, Loss: 0.705862, Errore MAE: 0.705862
+Epoca: 41/100, Loss: 0.685729, Errore MAE: 0.685729
+Epoca: 51/100, Loss: 0.665994, Errore MAE: 0.665994
+Epoca: 61/100, Loss: 0.649993, Errore MAE: 0.649993
+Epoca: 71/100, Loss: 0.634793, Errore MAE: 0.634793
+Epoca: 81/100, Loss: 0.621166, Errore MAE: 0.621166
+Epoca: 91/100, Loss: 0.608003, Errore MAE: 0.608003
+Epoca: 100/100, Loss: 0.597748, Errore MAE: 0.597748
+Feature selezionata per cluster 53: feature_236
+Errore di ricostruzione: 0.298753
+==================================================
+
+Filtered Clusters 53/59
+
+==================================================
+CLUSTER 54
+==================================================
+Numero di feature (campioni diventano features): 62
+
+Epoca: 1/100, Loss: 0.706733, Errore MAE: 0.706733
+Epoca: 11/100, Loss: 0.678406, Errore MAE: 0.678406
+Epoca: 21/100, Loss: 0.657748, Errore MAE: 0.657748
+Epoca: 31/100, Loss: 0.639072, Errore MAE: 0.639072
+Epoca: 41/100, Loss: 0.620279, Errore MAE: 0.620279
+Epoca: 51/100, Loss: 0.600050, Errore MAE: 0.600050
+Epoca: 61/100, Loss: 0.578916, Errore MAE: 0.578916
+Epoca: 71/100, Loss: 0.559292, Errore MAE: 0.559292
+Epoca: 81/100, Loss: 0.542698, Errore MAE: 0.542698
+Epoca: 91/100, Loss: 0.528693, Errore MAE: 0.528693
+Epoca: 100/100, Loss: 0.519464, Errore MAE: 0.519464
+Feature selezionata per cluster 54: feature_1276
+Errore di ricostruzione: 0.234974
+==================================================
+
+Filtered Clusters 54/59
+
+==================================================
+CLUSTER 55
+==================================================
+Numero di feature (campioni diventano features): 62
+
+Epoca: 1/100, Loss: 0.750713, Errore MAE: 0.750713
+Epoca: 11/100, Loss: 0.729941, Errore MAE: 0.729941
+Epoca: 21/100, Loss: 0.713300, Errore MAE: 0.713300
+Epoca: 31/100, Loss: 0.696276, Errore MAE: 0.696276
+Epoca: 41/100, Loss: 0.676592, Errore MAE: 0.676592
+Epoca: 51/100, Loss: 0.655540, Errore MAE: 0.655540
+Epoca: 61/100, Loss: 0.635384, Errore MAE: 0.635384
+Epoca: 71/100, Loss: 0.617273, Errore MAE: 0.617273
+Epoca: 81/100, Loss: 0.603594, Errore MAE: 0.603594
+Epoca: 91/100, Loss: 0.592164, Errore MAE: 0.592164
+Epoca: 100/100, Loss: 0.583807, Errore MAE: 0.583807
+Feature selezionata per cluster 55: feature_1433
+Errore di ricostruzione: 0.247510
+==================================================
+
+Filtered Clusters 55/59
+
+==================================================
+CLUSTER 56
+==================================================
+Numero di feature (campioni diventano features): 62
+
+Epoca: 1/100, Loss: 0.761947, Errore MAE: 0.761947
+Epoca: 11/100, Loss: 0.737308, Errore MAE: 0.737308
+Epoca: 21/100, Loss: 0.718395, Errore MAE: 0.718395
+Epoca: 31/100, Loss: 0.700929, Errore MAE: 0.700929
+Epoca: 41/100, Loss: 0.683337, Errore MAE: 0.683337
+Epoca: 51/100, Loss: 0.665590, Errore MAE: 0.665590
+Epoca: 61/100, Loss: 0.648213, Errore MAE: 0.648213
+Epoca: 71/100, Loss: 0.632170, Errore MAE: 0.632170
+Epoca: 81/100, Loss: 0.618124, Errore MAE: 0.618124
+Epoca: 91/100, Loss: 0.606582, Errore MAE: 0.606582
+Epoca: 100/100, Loss: 0.598747, Errore MAE: 0.598747
+Feature selezionata per cluster 56: feature_1585
+Errore di ricostruzione: 0.258479
+==================================================
+
+Filtered Clusters 56/59
+
+==================================================
+CLUSTER 57
+==================================================
+Numero di feature (campioni diventano features): 62
+
+Epoca: 1/100, Loss: 0.724931, Errore MAE: 0.724931
+Epoca: 11/100, Loss: 0.700235, Errore MAE: 0.700235
+Epoca: 21/100, Loss: 0.678658, Errore MAE: 0.678658
+Epoca: 31/100, Loss: 0.657580, Errore MAE: 0.657580
+Epoca: 41/100, Loss: 0.636797, Errore MAE: 0.636797
+Epoca: 51/100, Loss: 0.616775, Errore MAE: 0.616775
+Epoca: 61/100, Loss: 0.598435, Errore MAE: 0.598435
+Epoca: 71/100, Loss: 0.582396, Errore MAE: 0.582396
+Epoca: 81/100, Loss: 0.569233, Errore MAE: 0.569233
+Epoca: 91/100, Loss: 0.558619, Errore MAE: 0.558619
+Epoca: 100/100, Loss: 0.551141, Errore MAE: 0.551141
+Feature selezionata per cluster 57: feature_845
+Errore di ricostruzione: 0.179842
+==================================================
+
+Filtered Clusters 57/59
+
+==================================================
+CLUSTER 58
+==================================================
+Numero di feature (campioni diventano features): 62
+
+Epoca: 1/100, Loss: 0.729462, Errore MAE: 0.729462
+Epoca: 11/100, Loss: 0.701305, Errore MAE: 0.701305
+Epoca: 21/100, Loss: 0.681518, Errore MAE: 0.681518
+Epoca: 31/100, Loss: 0.663068, Errore MAE: 0.663068
+Epoca: 41/100, Loss: 0.643742, Errore MAE: 0.643742
+Epoca: 51/100, Loss: 0.623565, Errore MAE: 0.623565
+Epoca: 61/100, Loss: 0.604757, Errore MAE: 0.604757
+Epoca: 71/100, Loss: 0.587360, Errore MAE: 0.587360
+Epoca: 81/100, Loss: 0.571902, Errore MAE: 0.571902
+Epoca: 91/100, Loss: 0.558171, Errore MAE: 0.558171
+Epoca: 100/100, Loss: 0.546711, Errore MAE: 0.546711
+Feature selezionata per cluster 58: feature_1843
+Errore di ricostruzione: 0.320392
+==================================================
+
+Filtered Clusters 58/59
+
+==================================================
+CLUSTER 59
+==================================================
+Numero di feature (campioni diventano features): 62
+
+Epoca: 1/100, Loss: 0.707505, Errore MAE: 0.707505
+Epoca: 11/100, Loss: 0.678808, Errore MAE: 0.678808
+Epoca: 21/100, Loss: 0.656872, Errore MAE: 0.656872
+Epoca: 31/100, Loss: 0.636466, Errore MAE: 0.636466
+Epoca: 41/100, Loss: 0.616811, Errore MAE: 0.616811
+Epoca: 51/100, Loss: 0.598431, Errore MAE: 0.598431
+Epoca: 61/100, Loss: 0.581027, Errore MAE: 0.581027
+Epoca: 71/100, Loss: 0.566834, Errore MAE: 0.566834
+Epoca: 81/100, Loss: 0.554917, Errore MAE: 0.554917
+Epoca: 91/100, Loss: 0.545497, Errore MAE: 0.545497
+Epoca: 100/100, Loss: 0.538898, Errore MAE: 0.538898
+Feature selezionata per cluster 59: feature_374
+Errore di ricostruzione: 0.197916
+==================================================
+
+Filtered Clusters 59/59
+
+==================================================
+RIEPILOGO FEATURES SELEZIONATE
+==================================================
+Totale features selezionate: 60
+
+1. feature_699
+2. feature_290
+3. feature_1808
+4. feature_366
+5. feature_255
+6. feature_1284
+7. feature_1427
+8. feature_218
+9. feature_439
+10. feature_1937
+11. feature_949
+12. feature_904
+13. feature_370
+14. feature_1078
+15. feature_237
+16. feature_1493
+17. feature_375
+18. feature_252
+19. feature_269
+20. feature_931
+21. feature_1016
+22. feature_52
+23. feature_545
+24. feature_811
+25. feature_1697
+26. feature_1633
+27. feature_154
+28. feature_1710
+29. feature_456
+30. feature_519
+31. feature_511
+32. feature_727
+33. feature_475
+34. feature_1031
+35. feature_1894
+36. feature_1169
+37. feature_1380
+38. feature_926
+39. feature_618
+40. feature_1000
+41. feature_215
+42. feature_433
+43. feature_93
+44. feature_1594
+45. feature_989
+46. feature_1101
+47. feature_879
+48. feature_784
+49. feature_184
+50. feature_815
+51. feature_266
+52. feature_1286
+53. feature_363
+54. feature_236
+55. feature_1276
+56. feature_1433
+57. feature_1585
+58. feature_845
+59. feature_1843
+60. feature_374
+==================================================
+
+
+==================================================
+RIEPILOGO ESECUZIONE FILTER
+==================================================
+Tempo di esecuzione: 0 minuti e 4.32 secondi
+==================================================
+

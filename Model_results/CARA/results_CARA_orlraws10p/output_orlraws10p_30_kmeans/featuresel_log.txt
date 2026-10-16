@@ -1,0 +1,48 @@
+================================================================================
+CARA - FEATURE SELECTION SYSTEM USING AUTOENCODER
+================================================================================
+
+Esecuzione iniziata: 2026-03-13 00:21:59
+
+
+================================================================================
+CONFIGURAZIONE
+================================================================================
+Dataset: orlraws10P
+Input folder: Raw_Datasets/
+Label column: label_orlraws10p
+Scaler: standard
+
+Clustering strategy: KMeans
+Clustering parameters: searching
+
+Autoencoder: LinearAE
+Learning rate: 0.001
+Epochs: 100
+
+Output folder: output_experiments_29_datasets_all_distances/orlraws10p/output_orlraws10p_30_kmeans
+================================================================================
+
+
+--------------------------------------------------
+CARICAMENTO DATI
+--------------------------------------------------
+
+
+--------------------------------------------------
+CLUSTERING...
+--------------------------------------------------
+
+
+--------------------------------------------------
+FILTERING...
+--------------------------------------------------
+
+Selected features: ['feature_1712', 'feature_4870', 'feature_9973', 'feature_9614', 'feature_4936', 'feature_4181', 'feature_556', 'feature_9964', 'feature_2640', 'feature_907', 'feature_8262', 'feature_7037', 'feature_3692', 'feature_6827', 'feature_431', 'feature_2161', 'feature_3853', 'feature_1528', 'feature_5736', 'feature_6586', 'feature_7917', 'feature_5637', 'feature_9048', 'feature_9209', 'feature_2311', 'feature_1962', 'feature_9336', 'feature_4418', 'feature_4286', 'feature_3133']
+
+--------------------------------------------------
+VALUTAZIONE...
+--------------------------------------------------
+
+NMI: 0.8314 ± 0.0303
+ACC: 0.7800 ± 0.0530

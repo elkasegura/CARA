@@ -1,0 +1,48 @@
+================================================================================
+CARA - FEATURE SELECTION SYSTEM USING AUTOENCODER
+================================================================================
+
+Esecuzione iniziata: 2026-03-13 03:46:59
+
+
+================================================================================
+CONFIGURAZIONE
+================================================================================
+Dataset: PCMAC
+Input folder: Raw_Datasets/
+Label column: label_pcmac
+Scaler: standard
+
+Clustering strategy: KMeans
+Clustering parameters: searching
+
+Autoencoder: LinearAE
+Learning rate: 0.001
+Epochs: 100
+
+Output folder: output_experiments_29_datasets_all_distances/pcmac/output_pcmac_30_kmeans
+================================================================================
+
+
+--------------------------------------------------
+CARICAMENTO DATI
+--------------------------------------------------
+
+
+--------------------------------------------------
+CLUSTERING...
+--------------------------------------------------
+
+
+--------------------------------------------------
+FILTERING...
+--------------------------------------------------
+
+Selected features: ['feature_1780', 'feature_1570', 'feature_283', 'feature_1927', 'feature_629', 'feature_141', 'feature_65', 'feature_1405', 'feature_1421', 'feature_1797', 'feature_3025', 'feature_613', 'feature_862', 'feature_667', 'feature_229', 'feature_2777', 'feature_2489', 'feature_2601', 'feature_2939', 'feature_1056', 'feature_734', 'feature_106', 'feature_424', 'feature_1407', 'feature_1880', 'feature_1012', 'feature_463', 'feature_775', 'feature_163', 'feature_58']
+
+--------------------------------------------------
+VALUTAZIONE...
+--------------------------------------------------
+
+NMI: 0.0010 ± 0.0000
+ACC: 0.5049 ± 0.0000

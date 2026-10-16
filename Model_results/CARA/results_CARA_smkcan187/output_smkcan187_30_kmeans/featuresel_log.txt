@@ -1,0 +1,48 @@
+================================================================================
+CARA - FEATURE SELECTION SYSTEM USING AUTOENCODER
+================================================================================
+
+Esecuzione iniziata: 2026-03-13 16:32:24
+
+
+================================================================================
+CONFIGURAZIONE
+================================================================================
+Dataset: SMK-CAN-187
+Input folder: Raw_Datasets/
+Label column: label_smk_can_187
+Scaler: standard
+
+Clustering strategy: KMeans
+Clustering parameters: searching
+
+Autoencoder: LinearAE
+Learning rate: 0.001
+Epochs: 100
+
+Output folder: output_experiments_29_datasets_all_distances/smkcan187/output_smkcan187_30_kmeans
+================================================================================
+
+
+--------------------------------------------------
+CARICAMENTO DATI
+--------------------------------------------------
+
+
+--------------------------------------------------
+CLUSTERING...
+--------------------------------------------------
+
+
+--------------------------------------------------
+FILTERING...
+--------------------------------------------------
+
+Selected features: ['feature_12170', 'feature_19972', 'feature_5721', 'feature_951', 'feature_19906', 'feature_10543', 'feature_1871', 'feature_19420', 'feature_19731', 'feature_8982', 'feature_16488', 'feature_5663', 'feature_17382', 'feature_19911', 'feature_18434', 'feature_9384', 'feature_131', 'feature_10917', 'feature_6133', 'feature_2124', 'feature_19859', 'feature_9157', 'feature_19530', 'feature_19962', 'feature_15324', 'feature_2892', 'feature_15994', 'feature_970', 'feature_2857', 'feature_17572']
+
+--------------------------------------------------
+VALUTAZIONE...
+--------------------------------------------------
+
+NMI: 0.0067 ± 0.0006
+ACC: 0.5243 ± 0.0012

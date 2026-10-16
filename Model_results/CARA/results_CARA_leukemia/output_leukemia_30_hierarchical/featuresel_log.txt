@@ -1,0 +1,48 @@
+================================================================================
+CARA - FEATURE SELECTION SYSTEM USING AUTOENCODER
+================================================================================
+
+Esecuzione iniziata: 2026-03-12 14:19:31
+
+
+================================================================================
+CONFIGURAZIONE
+================================================================================
+Dataset: Leukemia
+Input folder: Raw_Datasets/
+Label column: label_leukemia
+Scaler: standard
+
+Clustering strategy: Hierarchical
+Clustering parameters: searching
+
+Autoencoder: LinearAE
+Learning rate: 0.001
+Epochs: 100
+
+Output folder: output_experiments_29_datasets_all_distances/leukemia/output_leukemia_30_hierarchical
+================================================================================
+
+
+--------------------------------------------------
+CARICAMENTO DATI
+--------------------------------------------------
+
+
+--------------------------------------------------
+CLUSTERING...
+--------------------------------------------------
+
+
+--------------------------------------------------
+FILTERING...
+--------------------------------------------------
+
+Selected features: ['feature_1832', 'feature_5620', 'feature_1105', 'feature_5912', 'feature_961', 'feature_4535', 'feature_3972', 'feature_5450', 'feature_5505', 'feature_2245', 'feature_2288', 'feature_2582', 'feature_511', 'feature_5272', 'feature_84', 'feature_6636', 'feature_4441', 'feature_2835', 'feature_3376', 'feature_4185', 'feature_6723', 'feature_1095', 'feature_700', 'feature_6123', 'feature_6028', 'feature_2005', 'feature_3644', 'feature_4035', 'feature_2312', 'feature_2715']
+
+--------------------------------------------------
+VALUTAZIONE...
+--------------------------------------------------
+
+NMI: 0.1603 ± 0.0000
+ACC: 0.6111 ± 0.0000

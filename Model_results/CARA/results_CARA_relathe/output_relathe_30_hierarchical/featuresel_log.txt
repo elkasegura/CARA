@@ -1,0 +1,48 @@
+================================================================================
+CARA - FEATURE SELECTION SYSTEM USING AUTOENCODER
+================================================================================
+
+Esecuzione iniziata: 2026-03-13 10:46:34
+
+
+================================================================================
+CONFIGURAZIONE
+================================================================================
+Dataset: RELATHE
+Input folder: Raw_Datasets/
+Label column: label_relathe
+Scaler: standard
+
+Clustering strategy: Hierarchical
+Clustering parameters: searching
+
+Autoencoder: LinearAE
+Learning rate: 0.001
+Epochs: 100
+
+Output folder: output_experiments_29_datasets_all_distances/relathe/output_relathe_30_hierarchical
+================================================================================
+
+
+--------------------------------------------------
+CARICAMENTO DATI
+--------------------------------------------------
+
+
+--------------------------------------------------
+CLUSTERING...
+--------------------------------------------------
+
+
+--------------------------------------------------
+FILTERING...
+--------------------------------------------------
+
+Selected features: ['feature_3862', 'feature_2088', 'feature_1915', 'feature_1134', 'feature_3228', 'feature_4128', 'feature_984', 'feature_471', 'feature_890', 'feature_1680', 'feature_4060', 'feature_3202', 'feature_2561', 'feature_887', 'feature_3371', 'feature_4245', 'feature_951', 'feature_1672', 'feature_158', 'feature_257', 'feature_142', 'feature_1943', 'feature_2485', 'feature_4036', 'feature_974', 'feature_4139', 'feature_409', 'feature_3711', 'feature_1267', 'feature_302']
+
+--------------------------------------------------
+VALUTAZIONE...
+--------------------------------------------------
+
+NMI: 0.0002 ± 0.0000
+ACC: 0.5214 ± 0.0000

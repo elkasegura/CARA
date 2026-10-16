@@ -1,0 +1,48 @@
+================================================================================
+CARA - FEATURE SELECTION SYSTEM USING AUTOENCODER
+================================================================================
+
+Esecuzione iniziata: 2026-03-11 09:41:48
+
+
+================================================================================
+CONFIGURAZIONE
+================================================================================
+Dataset: Colon
+Input folder: Raw_Datasets/
+Label column: label_colon
+Scaler: standard
+
+Clustering strategy: Hierarchical
+Clustering parameters: searching
+
+Autoencoder: LinearAE
+Learning rate: 0.001
+Epochs: 100
+
+Output folder: output_experiments_29_datasets_all_distances/colon/output_colon_40_hierarchical
+================================================================================
+
+
+--------------------------------------------------
+CARICAMENTO DATI
+--------------------------------------------------
+
+
+--------------------------------------------------
+CLUSTERING...
+--------------------------------------------------
+
+
+--------------------------------------------------
+FILTERING...
+--------------------------------------------------
+
+Selected features: ['feature_1284', 'feature_438', 'feature_844', 'feature_184', 'feature_370', 'feature_1292', 'feature_815', 'feature_752', 'feature_1157', 'feature_351', 'feature_30', 'feature_618', 'feature_1202', 'feature_7', 'feature_290', 'feature_735', 'feature_192', 'feature_687', 'feature_456', 'feature_255', 'feature_416', 'feature_519', 'feature_1697', 'feature_1161', 'feature_1395', 'feature_597', 'feature_705', 'feature_1716', 'feature_1415', 'feature_1937', 'feature_1380', 'feature_1493', 'feature_244', 'feature_1537', 'feature_476', 'feature_1427', 'feature_1276', 'feature_727', 'feature_374', 'feature_1433']
+
+--------------------------------------------------
+VALUTAZIONE...
+--------------------------------------------------
+
+NMI: 0.0026 ± 0.0000
+ACC: 0.5645 ± 0.0000

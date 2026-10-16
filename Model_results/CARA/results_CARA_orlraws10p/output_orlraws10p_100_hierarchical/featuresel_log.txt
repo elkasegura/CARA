@@ -1,0 +1,48 @@
+================================================================================
+CARA - FEATURE SELECTION SYSTEM USING AUTOENCODER
+================================================================================
+
+Esecuzione iniziata: 2026-03-12 22:55:13
+
+
+================================================================================
+CONFIGURAZIONE
+================================================================================
+Dataset: orlraws10P
+Input folder: Raw_Datasets/
+Label column: label_orlraws10p
+Scaler: standard
+
+Clustering strategy: Hierarchical
+Clustering parameters: searching
+
+Autoencoder: LinearAE
+Learning rate: 0.001
+Epochs: 100
+
+Output folder: output_experiments_29_datasets_all_distances/orlraws10p/output_orlraws10p_100_hierarchical
+================================================================================
+
+
+--------------------------------------------------
+CARICAMENTO DATI
+--------------------------------------------------
+
+
+--------------------------------------------------
+CLUSTERING...
+--------------------------------------------------
+
+
+--------------------------------------------------
+FILTERING...
+--------------------------------------------------
+
+Selected features: ['feature_9049', 'feature_7390', 'feature_8390', 'feature_161', 'feature_196', 'feature_9724', 'feature_9956', 'feature_5042', 'feature_1127', 'feature_1797', 'feature_8715', 'feature_7496', 'feature_9432', 'feature_9790', 'feature_1422', 'feature_477', 'feature_9336', 'feature_8468', 'feature_8460', 'feature_8353', 'feature_523', 'feature_8584', 'feature_7150', 'feature_3245', 'feature_2171', 'feature_2345', 'feature_3091', 'feature_5068', 'feature_4287', 'feature_5736', 'feature_6622', 'feature_4601', 'feature_1403', 'feature_2411', 'feature_3641', 'feature_2861', 'feature_7343', 'feature_712', 'feature_1827', 'feature_972', 'feature_852', 'feature_3052', 'feature_2280', 'feature_1945', 'feature_3232', 'feature_2422', 'feature_2669', 'feature_1858', 'feature_3190', 'feature_1844', 'feature_1324', 'feature_10073', 'feature_550', 'feature_4308', 'feature_8245', 'feature_3787', 'feature_5882', 'feature_2564', 'feature_1663', 'feature_1426', 'feature_5988', 'feature_7813', 'feature_8480', 'feature_8508', 'feature_1562', 'feature_667', 'feature_6252', 'feature_6025', 'feature_3540', 'feature_3096', 'feature_1566', 'feature_5245', 'feature_456', 'feature_10084', 'feature_5192', 'feature_6760', 'feature_5075', 'feature_4181', 'feature_6147', 'feature_5437', 'feature_7763', 'feature_1759', 'feature_1766', 'feature_2834', 'feature_3796', 'feature_1070', 'feature_279', 'feature_4303', 'feature_3969', 'feature_4864', 'feature_3662', 'feature_2398', 'feature_3580', 'feature_4523', 'feature_5422', 'feature_3178', 'feature_6270', 'feature_6041', 'feature_6122', 'feature_5374']
+
+--------------------------------------------------
+VALUTAZIONE...
+--------------------------------------------------
+
+NMI: 0.7977 ± 0.0237
+ACC: 0.7455 ± 0.0341

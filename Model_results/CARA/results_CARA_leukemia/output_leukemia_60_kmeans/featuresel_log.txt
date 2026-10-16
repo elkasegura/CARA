@@ -1,0 +1,48 @@
+================================================================================
+CARA - FEATURE SELECTION SYSTEM USING AUTOENCODER
+================================================================================
+
+Esecuzione iniziata: 2026-03-12 15:07:41
+
+
+================================================================================
+CONFIGURAZIONE
+================================================================================
+Dataset: Leukemia
+Input folder: Raw_Datasets/
+Label column: label_leukemia
+Scaler: standard
+
+Clustering strategy: KMeans
+Clustering parameters: searching
+
+Autoencoder: LinearAE
+Learning rate: 0.001
+Epochs: 100
+
+Output folder: output_experiments_29_datasets_all_distances/leukemia/output_leukemia_60_kmeans
+================================================================================
+
+
+--------------------------------------------------
+CARICAMENTO DATI
+--------------------------------------------------
+
+
+--------------------------------------------------
+CLUSTERING...
+--------------------------------------------------
+
+
+--------------------------------------------------
+FILTERING...
+--------------------------------------------------
+
+Selected features: ['feature_4004', 'feature_4632', 'feature_5111', 'feature_6098', 'feature_6563', 'feature_4057', 'feature_2926', 'feature_3995', 'feature_5449', 'feature_5955', 'feature_5912', 'feature_6953', 'feature_2288', 'feature_933', 'feature_5272', 'feature_934', 'feature_3427', 'feature_4774', 'feature_4872', 'feature_273', 'feature_5892', 'feature_6050', 'feature_2651', 'feature_930', 'feature_2973', 'feature_2551', 'feature_6901', 'feature_4366', 'feature_4135', 'feature_4156', 'feature_5677', 'feature_6954', 'feature_2939', 'feature_2745', 'feature_3744', 'feature_404', 'feature_5797', 'feature_5505', 'feature_2525', 'feature_700', 'feature_1718', 'feature_5910', 'feature_7068', 'feature_6699', 'feature_1413', 'feature_7033', 'feature_5792', 'feature_5894', 'feature_655', 'feature_5485', 'feature_4096', 'feature_4185', 'feature_1021', 'feature_4207', 'feature_6230', 'feature_5395', 'feature_1094', 'feature_3213', 'feature_5011', 'feature_5186']
+
+--------------------------------------------------
+VALUTAZIONE...
+--------------------------------------------------
+
+NMI: 0.0049 ± 0.0024
+ACC: 0.5347 ± 0.0106

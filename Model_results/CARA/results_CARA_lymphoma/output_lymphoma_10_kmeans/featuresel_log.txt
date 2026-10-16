@@ -1,0 +1,48 @@
+================================================================================
+CARA - FEATURE SELECTION SYSTEM USING AUTOENCODER
+================================================================================
+
+Esecuzione iniziata: 2026-03-12 18:05:28
+
+
+================================================================================
+CONFIGURAZIONE
+================================================================================
+Dataset: Lymphoma
+Input folder: Raw_Datasets/
+Label column: label_lymphoma
+Scaler: standard
+
+Clustering strategy: KMeans
+Clustering parameters: searching
+
+Autoencoder: LinearAE
+Learning rate: 0.001
+Epochs: 100
+
+Output folder: output_experiments_29_datasets_all_distances/lymphoma/output_lymphoma_10_kmeans
+================================================================================
+
+
+--------------------------------------------------
+CARICAMENTO DATI
+--------------------------------------------------
+
+
+--------------------------------------------------
+CLUSTERING...
+--------------------------------------------------
+
+
+--------------------------------------------------
+FILTERING...
+--------------------------------------------------
+
+Selected features: ['feature_2745', 'feature_259', 'feature_3262', 'feature_2071', 'feature_2910', 'feature_1477', 'feature_1757', 'feature_3775', 'feature_911', 'feature_435']
+
+--------------------------------------------------
+VALUTAZIONE...
+--------------------------------------------------
+
+NMI: 0.4934 ± 0.0177
+ACC: 0.4120 ± 0.0190

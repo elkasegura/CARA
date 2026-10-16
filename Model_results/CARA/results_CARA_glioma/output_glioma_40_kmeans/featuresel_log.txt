@@ -1,0 +1,48 @@
+================================================================================
+CARA - FEATURE SELECTION SYSTEM USING AUTOENCODER
+================================================================================
+
+Esecuzione iniziata: 2026-03-12 11:44:20
+
+
+================================================================================
+CONFIGURAZIONE
+================================================================================
+Dataset: GLIOMA
+Input folder: Raw_Datasets/
+Label column: label_glioma
+Scaler: standard
+
+Clustering strategy: KMeans
+Clustering parameters: searching
+
+Autoencoder: LinearAE
+Learning rate: 0.001
+Epochs: 100
+
+Output folder: output_experiments_29_datasets_all_distances/glioma/output_glioma_40_kmeans
+================================================================================
+
+
+--------------------------------------------------
+CARICAMENTO DATI
+--------------------------------------------------
+
+
+--------------------------------------------------
+CLUSTERING...
+--------------------------------------------------
+
+
+--------------------------------------------------
+FILTERING...
+--------------------------------------------------
+
+Selected features: ['feature_4030', 'feature_2030', 'feature_1069', 'feature_306', 'feature_2859', 'feature_4212', 'feature_2627', 'feature_3152', 'feature_3490', 'feature_1458', 'feature_2522', 'feature_4334', 'feature_224', 'feature_4302', 'feature_2201', 'feature_40', 'feature_2974', 'feature_1480', 'feature_99', 'feature_1603', 'feature_818', 'feature_3448', 'feature_2982', 'feature_4361', 'feature_856', 'feature_2732', 'feature_4010', 'feature_966', 'feature_1249', 'feature_1487', 'feature_2937', 'feature_2436', 'feature_4193', 'feature_2358', 'feature_3228', 'feature_2906', 'feature_992', 'feature_4226', 'feature_1532', 'feature_960']
+
+--------------------------------------------------
+VALUTAZIONE...
+--------------------------------------------------
+
+NMI: 0.5154 ± 0.0464
+ACC: 0.5900 ± 0.0392

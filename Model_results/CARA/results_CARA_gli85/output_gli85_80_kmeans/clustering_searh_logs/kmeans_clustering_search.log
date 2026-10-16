@@ -1,0 +1,8 @@
+2026-03-12 04:17:08 - INFO - Inizio log: output_experiments_29_datasets_all_distances/gli85/output_gli85_80_kmeans/clustering_searh_logs/kmeans_clustering_search.log
+2026-03-12 06:35:46 - INFO - {'params': {'metric_type': 'euclidean'}, 'best_result': {'num_clusters': 80, 'silhouette_score': 0.07003809439998848, 'davies_bouldin_score': 2.453408942613158, 'avg_features_per_cluster': 371.1842105263158, 'single_feature_clusters_percentage': 52.5}}
+2026-03-12 06:35:46 - INFO - {'params': {'metric_type': 'cosine'}, 'best_result': {'num_clusters': 80, 'silhouette_score': 0.08657807984888738, 'davies_bouldin_score': 2.4114566656687724, 'avg_features_per_cluster': 362.16129032258067, 'single_feature_clusters_percentage': 61.25000000000001}}
+2026-03-12 06:35:46 - INFO - {'params': {'metric_type': 'pearson'}, 'best_result': {'num_clusters': 80, 'silhouette_score': 0.08657807984888738, 'davies_bouldin_score': 2.4114566656687724, 'avg_features_per_cluster': 362.16129032258067, 'single_feature_clusters_percentage': 61.25000000000001}}
+2026-03-12 06:35:46 - INFO - {'params': {'metric_type': 'spearman'}, 'best_result': {'num_clusters': 80, 'silhouette_score': 0.08657807984888738, 'davies_bouldin_score': 2.4114566656687724, 'avg_features_per_cluster': 362.16129032258067, 'single_feature_clusters_percentage': 61.25000000000001}}
+2026-03-12 06:35:46 - INFO - 
+### CONFIGURAZIONE FINALE ###
+2026-03-12 06:35:46 - INFO - {'params': {'metric_type': 'euclidean'}, 'best_result': {'num_clusters': 80, 'silhouette_score': 0.07003809439998848, 'davies_bouldin_score': 2.453408942613158, 'avg_features_per_cluster': 371.1842105263158, 'single_feature_clusters_percentage': 52.5}}
