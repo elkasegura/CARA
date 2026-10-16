@@ -1,8 +1,0 @@
-2026-03-12 14:47:00 - INFO - Inizio log: output_experiments_29_datasets_all_distances/leukemia/output_leukemia_50_kmeans/clustering_searh_logs/kmeans_clustering_search.log
-2026-03-12 14:52:54 - INFO - {'params': {'metric_type': 'euclidean'}, 'best_result': {'num_clusters': 50, 'silhouette_score': 0.05061607313762144, 'davies_bouldin_score': 2.838314203305887, 'avg_features_per_cluster': 254.52941176470588, 'single_feature_clusters_percentage': 66.0}}
-2026-03-12 14:52:54 - INFO - {'params': {'metric_type': 'cosine'}, 'best_result': {'num_clusters': 50, 'silhouette_score': 0.07216368002582003, 'davies_bouldin_score': 2.621922258174026, 'avg_features_per_cluster': 178.63636363636363, 'single_feature_clusters_percentage': 56.00000000000001}}
-2026-03-12 14:52:54 - INFO - {'params': {'metric_type': 'pearson'}, 'best_result': {'num_clusters': 50, 'silhouette_score': 0.07216368002582003, 'davies_bouldin_score': 2.621922258174026, 'avg_features_per_cluster': 178.63636363636363, 'single_feature_clusters_percentage': 56.00000000000001}}
-2026-03-12 14:52:54 - INFO - {'params': {'metric_type': 'spearman'}, 'best_result': {'num_clusters': 50, 'silhouette_score': 0.07216368002582003, 'davies_bouldin_score': 2.621922258174026, 'avg_features_per_cluster': 178.63636363636363, 'single_feature_clusters_percentage': 56.00000000000001}}
-2026-03-12 14:52:54 - INFO - 
-### CONFIGURAZIONE FINALE ###
-2026-03-12 14:52:54 - INFO - {'params': {'metric_type': 'cosine'}, 'best_result': {'num_clusters': 50, 'silhouette_score': 0.07216368002582003, 'davies_bouldin_score': 2.621922258174026, 'avg_features_per_cluster': 178.63636363636363, 'single_feature_clusters_percentage': 56.00000000000001}}

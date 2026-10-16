@@ -1,8 +1,0 @@
-2026-03-12 18:05:29 - INFO - Inizio log: output_experiments_29_datasets_all_distances/lymphoma/output_lymphoma_10_kmeans/clustering_searh_logs/kmeans_clustering_search.log
-2026-03-12 18:05:44 - INFO - {'params': {'metric_type': 'euclidean'}, 'best_result': {'num_clusters': 10, 'silhouette_score': 0.19600462612199612, 'davies_bouldin_score': 1.7720153375058452, 'avg_features_per_cluster': 536.8, 'single_feature_clusters_percentage': 50.0}}
-2026-03-12 18:05:44 - INFO - {'params': {'metric_type': 'cosine'}, 'best_result': {'num_clusters': 10, 'silhouette_score': 0.19823221584751177, 'davies_bouldin_score': 1.574596085385502, 'avg_features_per_cluster': 440.0, 'single_feature_clusters_percentage': 40.0}}
-2026-03-12 18:05:44 - INFO - {'params': {'metric_type': 'pearson'}, 'best_result': {'num_clusters': 10, 'silhouette_score': 0.19823221584751177, 'davies_bouldin_score': 1.574596085385502, 'avg_features_per_cluster': 440.0, 'single_feature_clusters_percentage': 40.0}}
-2026-03-12 18:05:44 - INFO - {'params': {'metric_type': 'spearman'}, 'best_result': {'num_clusters': 10, 'silhouette_score': 0.19823221584751177, 'davies_bouldin_score': 1.574596085385502, 'avg_features_per_cluster': 440.0, 'single_feature_clusters_percentage': 40.0}}
-2026-03-12 18:05:44 - INFO - 
-### CONFIGURAZIONE FINALE ###
-2026-03-12 18:05:44 - INFO - {'params': {'metric_type': 'cosine'}, 'best_result': {'num_clusters': 10, 'silhouette_score': 0.19823221584751177, 'davies_bouldin_score': 1.574596085385502, 'avg_features_per_cluster': 440.0, 'single_feature_clusters_percentage': 40.0}}
